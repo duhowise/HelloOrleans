@@ -1,0 +1,11 @@
+C:\Users\Duho\source\repos\Orleans\Interfaces\bin\Debug\netstandard2.0\Interfaces.deps.json
+C:\Users\Duho\source\repos\Orleans\Interfaces\bin\Debug\netstandard2.0\Interfaces.dll
+C:\Users\Duho\source\repos\Orleans\Interfaces\obj\Debug\netstandard2.0\Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\Duho\source\repos\Orleans\Interfaces\obj\Debug\netstandard2.0\Interfaces.AssemblyInfoInputs.cache
+C:\Users\Duho\source\repos\Orleans\Interfaces\obj\Debug\netstandard2.0\Interfaces.AssemblyInfo.cs
+C:\Users\Duho\source\repos\Orleans\Interfaces\bin\Debug\netstandard2.0\Interfaces.pdb
+C:\Users\Duho\source\repos\Orleans\Interfaces\obj\Debug\netstandard2.0\Interfaces.csproj.OrleansCodeGenInputs.cache
+C:\Users\Duho\source\repos\Orleans\Interfaces\obj\Debug\netstandard2.0\Interfaces.orleans.g.cs
+C:\Users\Duho\source\repos\Orleans\Interfaces\obj\Debug\netstandard2.0\Interfaces.dll
+C:\Users\Duho\source\repos\Orleans\Interfaces\obj\Debug\netstandard2.0\Interfaces.pdb
+C:\Users\Duho\source\repos\Orleans\Interfaces\obj\Debug\netstandard2.0\Interfaces.csprojAssemblyReference.cache

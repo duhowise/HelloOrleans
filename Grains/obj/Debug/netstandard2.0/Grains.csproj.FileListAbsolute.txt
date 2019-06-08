@@ -1,0 +1,14 @@
+C:\Users\Duho\source\repos\Orleans\Grains\bin\Debug\netstandard2.0\Grains.deps.json
+C:\Users\Duho\source\repos\Orleans\Grains\bin\Debug\netstandard2.0\Grains.dll
+C:\Users\Duho\source\repos\Orleans\Grains\obj\Debug\netstandard2.0\Grains.csprojAssemblyReference.cache
+C:\Users\Duho\source\repos\Orleans\Grains\obj\Debug\netstandard2.0\Grains.csproj.CoreCompileInputs.cache
+C:\Users\Duho\source\repos\Orleans\Grains\obj\Debug\netstandard2.0\Grains.AssemblyInfoInputs.cache
+C:\Users\Duho\source\repos\Orleans\Grains\obj\Debug\netstandard2.0\Grains.AssemblyInfo.cs
+C:\Users\Duho\source\repos\Orleans\Grains\bin\Debug\netstandard2.0\Grains.pdb
+C:\Users\Duho\source\repos\Orleans\Grains\bin\Debug\netstandard2.0\Interfaces.dll
+C:\Users\Duho\source\repos\Orleans\Grains\bin\Debug\netstandard2.0\Interfaces.pdb
+C:\Users\Duho\source\repos\Orleans\Grains\obj\Debug\netstandard2.0\Grains.csproj.OrleansCodeGenInputs.cache
+C:\Users\Duho\source\repos\Orleans\Grains\obj\Debug\netstandard2.0\Grains.orleans.g.cs
+C:\Users\Duho\source\repos\Orleans\Grains\obj\Debug\netstandard2.0\Grains.csproj.CopyComplete
+C:\Users\Duho\source\repos\Orleans\Grains\obj\Debug\netstandard2.0\Grains.dll
+C:\Users\Duho\source\repos\Orleans\Grains\obj\Debug\netstandard2.0\Grains.pdb

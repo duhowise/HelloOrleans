@@ -3,3 +3,7 @@
 ################################################################################
 
 *.dll
+*.sqlite
+/Client/bin/Debug/netcoreapp2.2
+*.dtbcache
+/.vs/Orleans/v16

@@ -1,0 +1,16 @@
+C:\Users\Duho\source\repos\Orleans\Client\bin\Debug\netcoreapp2.2\Client.deps.json
+C:\Users\Duho\source\repos\Orleans\Client\bin\Debug\netcoreapp2.2\Client.runtimeconfig.json
+C:\Users\Duho\source\repos\Orleans\Client\bin\Debug\netcoreapp2.2\Client.runtimeconfig.dev.json
+C:\Users\Duho\source\repos\Orleans\Client\bin\Debug\netcoreapp2.2\Client.dll
+C:\Users\Duho\source\repos\Orleans\Client\obj\Debug\netcoreapp2.2\Client.csproj.CoreCompileInputs.cache
+C:\Users\Duho\source\repos\Orleans\Client\obj\Debug\netcoreapp2.2\Client.AssemblyInfoInputs.cache
+C:\Users\Duho\source\repos\Orleans\Client\obj\Debug\netcoreapp2.2\Client.AssemblyInfo.cs
+C:\Users\Duho\source\repos\Orleans\Client\bin\Debug\netcoreapp2.2\Client.pdb
+C:\Users\Duho\source\repos\Orleans\Client\obj\Debug\netcoreapp2.2\Client.csprojAssemblyReference.cache
+C:\Users\Duho\source\repos\Orleans\Client\obj\Debug\netcoreapp2.2\Client.dll
+C:\Users\Duho\source\repos\Orleans\Client\obj\Debug\netcoreapp2.2\Client.pdb
+C:\Users\Duho\source\repos\Orleans\Client\bin\Debug\netcoreapp2.2\Interfaces.dll
+C:\Users\Duho\source\repos\Orleans\Client\bin\Debug\netcoreapp2.2\Interfaces.pdb
+C:\Users\Duho\source\repos\Orleans\Client\obj\Debug\netcoreapp2.2\Client.csproj.CopyComplete
+C:\Users\Duho\source\repos\Orleans\Client\bin\Debug\netcoreapp2.2\Grains.dll
+C:\Users\Duho\source\repos\Orleans\Client\bin\Debug\netcoreapp2.2\Grains.pdb
