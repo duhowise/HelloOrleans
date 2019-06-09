@@ -1,0 +1,12 @@
+C:\Users\Duho\source\repos\Orleans\DbMigration\bin\Debug\netcoreapp2.2\Scripts\001MySQL-Main.sql
+C:\Users\Duho\source\repos\Orleans\DbMigration\bin\Debug\netcoreapp2.2\Scripts\002MySQL-Persistence.sql
+C:\Users\Duho\source\repos\Orleans\DbMigration\bin\Debug\netcoreapp2.2\DbMigration.deps.json
+C:\Users\Duho\source\repos\Orleans\DbMigration\bin\Debug\netcoreapp2.2\DbMigration.runtimeconfig.json
+C:\Users\Duho\source\repos\Orleans\DbMigration\bin\Debug\netcoreapp2.2\DbMigration.runtimeconfig.dev.json
+C:\Users\Duho\source\repos\Orleans\DbMigration\bin\Debug\netcoreapp2.2\DbMigration.dll
+C:\Users\Duho\source\repos\Orleans\DbMigration\bin\Debug\netcoreapp2.2\DbMigration.pdb
+C:\Users\Duho\source\repos\Orleans\DbMigration\obj\Debug\netcoreapp2.2\DbMigration.csproj.CoreCompileInputs.cache
+C:\Users\Duho\source\repos\Orleans\DbMigration\obj\Debug\netcoreapp2.2\DbMigration.AssemblyInfoInputs.cache
+C:\Users\Duho\source\repos\Orleans\DbMigration\obj\Debug\netcoreapp2.2\DbMigration.AssemblyInfo.cs
+C:\Users\Duho\source\repos\Orleans\DbMigration\obj\Debug\netcoreapp2.2\DbMigration.dll
+C:\Users\Duho\source\repos\Orleans\DbMigration\obj\Debug\netcoreapp2.2\DbMigration.pdb
