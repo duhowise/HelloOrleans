@@ -1,12 +1,18 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 using Grains;
+using Interfaces;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Newtonsoft.Json;
 using Orleans;
 using Orleans.Configuration;
 using Orleans.Hosting;
 using Orleans.Logging;
+using SiloHost.Filters;
 
 namespace SiloHost
 {
@@ -36,8 +42,8 @@ namespace SiloHost
 
         private static async Task<ISiloHost> StartSilo()
         {
-         var config=   LoadConfig();
-       var orleansConfig=  GetOrleansConfig(config);
+            var config = LoadConfig();
+            var orleansConfig = GetOrleansConfig(config);
             var builder = new SiloHostBuilder()
                     //cluster information
                     .Configure<ClusterOptions>(options =>
@@ -52,10 +58,23 @@ namespace SiloHost
                         option.GatewayPort = 30000;
                         option.AdvertisedIPAddress = IPAddress.Loopback;
                     }).UseDashboard()
+                    .ConfigureServices(services =>
+                    {
+                        services.AddSingleton(s => CreateGrainMethodList());
+                        services.AddSingleton(s => new JsonSerializerSettings
+                        {
+                            Formatting = Formatting.None,
+                            TypeNameHandling = TypeNameHandling.None,
+                            ReferenceLoopHandling = ReferenceLoopHandling.Serialize,
+                            PreserveReferencesHandling = PreserveReferencesHandling.Objects
+                        });
+
+                    })
+                    .AddIncomingGrainCallFilter<LoggingFilter>()
                     .AddAdoNetGrainStorageAsDefault(options =>
                     {
                         options.Invariant = orleansConfig.Invariant;
-                        options.ConnectionString =orleansConfig.ConnectionString;
+                        options.ConnectionString = orleansConfig.ConnectionString;
                         options.UseJsonFormat = orleansConfig.UseJsonFormat;
                     })
                     .ConfigureApplicationParts(parts =>
@@ -78,20 +97,33 @@ namespace SiloHost
             return config;
         }
 
+        private static GrainInfo CreateGrainMethodList()
+        {
+            var grainInterfaces = typeof(IHello).Assembly.GetTypes().Where(x => x.IsInterface)
+                .SelectMany(type => type.GetMethods()).Select(methodInfo => methodInfo.Name).Distinct();
+
+            return new GrainInfo
+            {
+                Methods = grainInterfaces.ToList()
+            };
+        }
+
         private static OrleansConfig GetOrleansConfig(IConfiguration configuration)
         {
-            var orleansConfig=new OrleansConfig();
+            var orleansConfig = new OrleansConfig();
             var section = configuration.GetSection("OrleansConfiguration");
             section.Bind(orleansConfig);
             return orleansConfig;
         }
-
     }
 
-    public class OrleansConfig
+    public class GrainInfo
     {
-        public string ConnectionString { get; set; }
-        public string Invariant { get; set; }
-        public bool UseJsonFormat { get; set; }
+        public GrainInfo()
+        {
+            Methods = new List<string>();
+        }
+
+        public List<string> Methods { get; set; }
     }
 }
