@@ -6,16 +6,36 @@ OutputType:Library
 TargetPath:C:\Users\Duho\source\repos\Orleans\Grains\bin\Debug\netstandard2.0\Grains.dll
 CodeGenOutputFile:C:\Users\Duho\source\repos\Orleans\Grains\obj\Debug\netstandard2.0\Grains.orleans.g.cs
 Compile:C:\Users\Duho\source\repos\Orleans\Grains\Class1.cs
+Compile:C:\Users\Duho\source\repos\Orleans\Grains\GreetingsGrain.cs
 Compile:C:\Users\Duho\source\repos\Orleans\Grains\HelloGrain.cs
 Reference:C:\Users\Duho\source\repos\Orleans\Interfaces\bin\Debug\netstandard2.0\Interfaces.dll
-Reference:C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.logging.abstractions\2.1.1\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll
+Reference:C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.csharp\4.3.0\ref\netstandard1.0\Microsoft.CSharp.dll
+Reference:C:\Users\Duho\.nuget\packages\microsoft.dotnet.platformabstractions\2.0.0\lib\netstandard1.3\Microsoft.DotNet.PlatformAbstractions.dll
+Reference:C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.configuration.abstractions\2.1.1\lib\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.dll
+Reference:C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.configuration.binder\2.1.1\lib\netstandard2.0\Microsoft.Extensions.Configuration.Binder.dll
+Reference:C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.configuration\2.1.1\lib\netstandard2.0\Microsoft.Extensions.Configuration.dll
+Reference:C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.dependencyinjection.abstractions\2.1.1\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+Reference:C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.dependencyinjection\2.1.1\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.dll
+Reference:C:\Users\Duho\.nuget\packages\microsoft.extensions.dependencymodel\2.0.0\lib\netstandard1.6\Microsoft.Extensions.DependencyModel.dll
+Reference:C:\Users\Duho\.nuget\packages\microsoft.extensions.fileproviders.abstractions\2.1.0\lib\netstandard2.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+Reference:C:\Users\Duho\.nuget\packages\microsoft.extensions.hosting.abstractions\2.1.0\lib\netstandard2.0\Microsoft.Extensions.Hosting.Abstractions.dll
+Reference:C:\Users\Duho\.nuget\packages\microsoft.extensions.logging.abstractions\2.1.0\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll
+Reference:C:\Users\Duho\.nuget\packages\microsoft.extensions.logging\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Logging.dll
+Reference:C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.options.configurationextensions\2.1.1\lib\netstandard2.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+Reference:C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.options\2.1.1\lib\netstandard2.0\Microsoft.Extensions.Options.dll
+Reference:C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.primitives\2.1.1\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll
 Reference:C:\Users\Duho\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\Microsoft.Win32.Primitives.dll
 Reference:C:\Users\Duho\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\mscorlib.dll
 Reference:C:\Users\Duho\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\netstandard.dll
-Reference:C:\Users\Duho\.nuget\packages\microsoft.orleans.core.abstractions\2.3.4\lib\netstandard2.0\Orleans.Core.Abstractions.dll
+Reference:C:\Users\Duho\.nuget\packages\newtonsoft.json\10.0.3\lib\netstandard1.3\Newtonsoft.Json.dll
+Reference:C:\Users\Duho\.nuget\packages\microsoft.orleans.core.abstractions\2.3.5\lib\netstandard2.0\Orleans.Core.Abstractions.dll
+Reference:C:\Users\Duho\.nuget\packages\microsoft.orleans.core\2.3.5\lib\netstandard2.0\Orleans.Core.dll
+Reference:C:\Users\Duho\.nuget\packages\microsoft.orleans.eventsourcing\2.3.5\lib\netstandard2.0\Orleans.EventSourcing.dll
+Reference:C:\Users\Duho\.nuget\packages\microsoft.orleans.runtime.abstractions\2.3.5\lib\netstandard2.0\Orleans.Runtime.Abstractions.dll
 Reference:C:\Users\Duho\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.AppContext.dll
 Reference:C:\Users\Duho\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Collections.Concurrent.dll
 Reference:C:\Users\Duho\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Collections.dll
+Reference:C:\Users\Duho\.nuget\packages\system.collections.immutable\1.4.0\lib\netstandard2.0\System.Collections.Immutable.dll
 Reference:C:\Users\Duho\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Collections.NonGeneric.dll
 Reference:C:\Users\Duho\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Collections.Specialized.dll
 Reference:C:\Users\Duho\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.ComponentModel.Composition.dll
@@ -75,11 +95,17 @@ Reference:C:\Users\Duho\.nuget\packages\netstandard.library\2.0.3\build\netstand
 Reference:C:\Users\Duho\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Numerics.dll
 Reference:C:\Users\Duho\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.ObjectModel.dll
 Reference:C:\Users\Duho\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Reflection.dll
+Reference:C:\Program Files\dotnet\sdk\NuGetFallbackFolder\system.reflection.emit\4.3.0\ref\netstandard1.1\System.Reflection.Emit.dll
+Reference:C:\Program Files\dotnet\sdk\NuGetFallbackFolder\system.reflection.emit.ilgeneration\4.3.0\ref\netstandard1.0\System.Reflection.Emit.ILGeneration.dll
+Reference:C:\Program Files\dotnet\sdk\NuGetFallbackFolder\system.reflection.emit.lightweight\4.3.0\ref\netstandard1.0\System.Reflection.Emit.Lightweight.dll
 Reference:C:\Users\Duho\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Reflection.Extensions.dll
+Reference:C:\Users\Duho\.nuget\packages\system.reflection.metadata\1.5.0\lib\netstandard2.0\System.Reflection.Metadata.dll
 Reference:C:\Users\Duho\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Reflection.Primitives.dll
+Reference:C:\Users\Duho\.nuget\packages\system.reflection.typeextensions\4.4.0\ref\netstandard2.0\System.Reflection.TypeExtensions.dll
 Reference:C:\Users\Duho\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Resources.Reader.dll
 Reference:C:\Users\Duho\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Resources.ResourceManager.dll
 Reference:C:\Users\Duho\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Resources.Writer.dll
+Reference:C:\Program Files\dotnet\sdk\NuGetFallbackFolder\system.runtime.compilerservices.unsafe\4.5.1\ref\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll
 Reference:C:\Users\Duho\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.CompilerServices.VisualC.dll
 Reference:C:\Users\Duho\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.dll
 Reference:C:\Users\Duho\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.Extensions.dll
@@ -124,4 +150,5 @@ Reference:C:\Users\Duho\.nuget\packages\netstandard.library\2.0.3\build\netstand
 Reference:C:\Users\Duho\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.XmlSerializer.dll
 Reference:C:\Users\Duho\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.XPath.dll
 Reference:C:\Users\Duho\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.XPath.XDocument.dll
+Reference:C:\Users\Duho\.nuget\packages\system.xml.xpath.xmldocument\4.3.0\ref\netstandard1.3\System.Xml.XPath.XmlDocument.dll
 DefineConstants:TRACE,DEBUG,NETSTANDARD,NETSTANDARD2_0

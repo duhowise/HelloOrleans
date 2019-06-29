@@ -4452,3 +4452,834 @@ Grain class OrleansDashboard.Metrics.Grains.OrleansDashboard.Metrics.Grains.Silo
 [2019-06-29 11:42:58.256 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
 [2019-06-29 11:42:58.259 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
 [2019-06-29 11:42:58.573 GMT 29	Information	101302	Orleans.Runtime.Messaging.Gateway]	Recorded closed socket from endpoint 127.0.0.1:7590, client ID *cli/fde7fb80.	
+[2019-06-29 12:20:58.680 GMT 1	Warning	100708	Orleans.Runtime.NoOpHostEnvironmentStatistics]	No implementation of IHostEnvironmentStatistics was found. Load shedding will not work yet	
+[2019-06-29 12:20:59.120 GMT 1	Information	0	Orleans.Runtime.Scheduler.OrleansTaskScheduler]	Starting OrleansTaskScheduler with 4 Max Active application Threads and 2 system thread.	
+[2019-06-29 12:20:59.726 GMT 1	Information	100404	Orleans.Runtime.Silo]	Silo starting with GC settings: ServerGC=False GCLatencyMode=Interactive	
+[2019-06-29 12:20:59.731 GMT 1	Warning	100405	Orleans.Runtime.Silo]	Note: Silo not running with ServerGC turned on - recommend checking app config : <configuration>-<runtime>-<gcServer enabled="true">	
+[2019-06-29 12:20:59.736 GMT 1	Warning	100405	Orleans.Runtime.Silo]	Note: ServerGC only kicks in on multi-core systems (settings enabling ServerGC have no effect on single-core machines).	
+[2019-06-29 12:20:59.743 GMT 1	Information	100403	Orleans.Runtime.Silo]	-------------- Initializing silo on host DUHO-PC MachineName DUHO-PC at 127.0.0.1:11111, gen 299506858 --------------	
+[2019-06-29 12:20:59.746 GMT 1	Information	100415	Orleans.Runtime.Silo]	Starting silo Silo_d0a95	
+[2019-06-29 12:20:59.854 GMT 1	Information	101010	Orleans.Runtime.Messaging.IncomingMessageAcceptor]	Opened a listening socket at address 127.0.0.1:11111	
+[2019-06-29 12:20:59.867 GMT 1	Information	101010	Orleans.Runtime.Messaging.IncomingMessageAcceptor]	Opened a listening socket at address 127.0.0.1:30000	
+[2019-06-29 12:20:59.989 GMT 1	Information	0	Orleans.Runtime.ConsistentRing.VirtualBucketsRingProvider]	Starting VirtualBucketsRingProvider on silo S127.0.0.1:11111:299506858/x4E895F79.	
+[2019-06-29 12:21:00.080 GMT 1	Information	103003	Orleans.Runtime.ConsistentRing.VirtualBucketsRingProvider]	Added Server S127.0.0.1:11111:299506858/x4E895F79. Current view: [S127.0.0.1:11111:299506858 -> <MultiRange: Size=x100000000, %Ring=100.000%>]	
+[2019-06-29 12:21:00.089 GMT 1	Information	103005	Orleans.Runtime.ConsistentRing.VirtualBucketsRingProvider]	-NotifyLocalRangeSubscribers about old <(0 0], Size=x100000000, %Ring=100.000%> new <MultiRange: Size=x100000000, %Ring=100.000%> increased? True	
+[2019-06-29 12:21:00.149 GMT 1	Information	0	Orleans.Runtime.Silo]	Skip multicluster oracle creation (no multicluster network configured)	
+[2019-06-29 12:21:00.188 GMT 1	Information	100422	Orleans.Runtime.Silo]	-------------- Started silo S127.0.0.1:11111:299506858, ConsistentHashCode 4E895F79 --------------	
+[2019-06-29 12:21:00.209 GMT 1	Information	0	Runtime.Scheduler.OrleansSchedulerAsynchAgent/Scheduler.LevelOne.SystemQueue]	Starting AsyncAgent Runtime.Scheduler.OrleansSchedulerAsynchAgent/Scheduler.LevelOne.SystemQueue on managed thread 1	
+[2019-06-29 12:21:00.287 GMT 1	Information	0	Runtime.Scheduler.OrleansSchedulerAsynchAgent/Scheduler.LevelOne.MainQueue]	Starting AsyncAgent Runtime.Scheduler.OrleansSchedulerAsynchAgent/Scheduler.LevelOne.MainQueue on managed thread 1	
+[2019-06-29 12:21:00.292 GMT 12	Information	0	Orleans.Threading.ThreadPoolThread]	Starting thread Runtime.Scheduler.OrleansSchedulerAsynchAgent/Scheduler.LevelOne.SystemQueue1 on managed thread 12	
+[2019-06-29 12:21:00.292 GMT 11	Information	0	Orleans.Threading.ThreadPoolThread]	Starting thread Runtime.Scheduler.OrleansSchedulerAsynchAgent/Scheduler.LevelOne.SystemQueue0 on managed thread 11	
+[2019-06-29 12:21:00.324 GMT 13	Information	0	Orleans.Threading.ThreadPoolThread]	Starting thread Runtime.Scheduler.OrleansSchedulerAsynchAgent/Scheduler.LevelOne.MainQueue0 on managed thread 13	
+[2019-06-29 12:21:00.352 GMT 15	Information	0	Orleans.Threading.ThreadPoolThread]	Starting thread Runtime.Scheduler.OrleansSchedulerAsynchAgent/Scheduler.LevelOne.MainQueue1 on managed thread 15	
+[2019-06-29 12:21:00.386 GMT 16	Information	0	Orleans.Threading.ThreadPoolThread]	Starting thread Runtime.Scheduler.OrleansSchedulerAsynchAgent/Scheduler.LevelOne.MainQueue2 on managed thread 16	
+[2019-06-29 12:21:00.389 GMT 1	Information	100452	Orleans.Runtime.Silo]	Start Scheduler took 188 Milliseconds to finish	
+[2019-06-29 12:21:00.405 GMT 17	Information	0	Orleans.Threading.ThreadPoolThread]	Starting thread Runtime.Scheduler.OrleansSchedulerAsynchAgent/Scheduler.LevelOne.MainQueue3 on managed thread 17	
+[2019-06-29 12:21:00.497 GMT 12	Information	100453	Orleans.Runtime.SiloLifecycleSubject]	Stage 2000: Orleans.Runtime.InsideRuntimeClient, Orleans.Runtime.Silo	
+[2019-06-29 12:21:00.501 GMT 12	Information	100453	Orleans.Runtime.SiloLifecycleSubject]	Stage 4000: Orleans.Runtime.Silo	
+[2019-06-29 12:21:00.510 GMT 12	Information	100453	Orleans.Runtime.SiloLifecycleSubject]	Stage 8000: HostedClient, Orleans.Runtime.Silo	
+[2019-06-29 12:21:00.516 GMT 12	Information	100453	Orleans.Runtime.SiloLifecycleSubject]	Stage 10000: Orleans.Runtime.Versions.GrainVersionStore, Orleans.Storage.AdoNetGrainStorage-Default	
+[2019-06-29 12:21:00.521 GMT 12	Information	100453	Orleans.Runtime.SiloLifecycleSubject]	Stage 19999: Orleans.Runtime.Silo	
+[2019-06-29 12:21:00.527 GMT 12	Information	100453	Orleans.Runtime.SiloLifecycleSubject]	Stage 20000: Orleans.Hosting.SiloBuilderStartupExtensions+StartupTask, Orleans.Runtime.Silo	
+[2019-06-29 12:21:00.696 GMT 12	Information	101711	Orleans.Runtime.GrainTypeManager]	Loaded grain type summary for 10 types: 
+Grain class Grains.Grains.GreetingsGrain [2098743397 (0x7D184865)] from Grains.dll implementing interfaces: Orleans.MultiCluster.ILogConsistencyProtocolParticipant [-287197741 (0xEEE1B5D3)], Interfaces.IGreetingGrain [1221253694 (0x48CADA3E)]
+Grain class Grains.Grains.HelloGrain [1448337097 (0x5653DEC9)] from Grains.dll implementing interfaces: Interfaces.IHello [274936967 (0x10633487)]
+Grain class Orleans.Runtime.Development.Orleans.Runtime.Development.DevelopmentLeaseProviderGrain [940524075 (0x380F422B)] from Orleans.Runtime.dll implementing interfaces: Orleans.Runtime.Development.IDevelopmentLeaseProviderGrain [-1234611069 (0xB6695483)]
+Grain class Orleans.Runtime.Management.Orleans.Runtime.Management.ManagementGrain [1954798034 (0x7483D9D2)] from Orleans.Runtime.dll implementing interfaces: Orleans.Runtime.IManagementGrain [-1734666656 (0x989B1660)]
+Grain class Orleans.Runtime.ReminderService.Orleans.Runtime.ReminderService.GrainBasedReminderTable [-55315191 (0xFCB3F509)] from Orleans.Runtime.dll implementing interfaces: Orleans.IReminderTableGrain [-1135060418 (0xBC585A3E)]
+Grain class Orleans.Runtime.Versions.Orleans.Runtime.Versions.VersionStoreGrain [331003096 (0x13BAB4D8)] from Orleans.Runtime.dll implementing interfaces: Orleans.Runtime.Versions.IVersionStoreGrain [-297600501 (0xEE42FA0B)], Orleans.IGrainWithStringKey [-1277021679 (0xB3E23211)]
+Grain class Orleans.Streams.Orleans.Streams.PubSubRendezvousGrain [1903070868 (0x716E8E94)] from Orleans.Runtime.dll implementing interfaces: Orleans.Streams.IPubSubRendezvousGrain [1746702088 (0x681C8F08)]
+Grain class OrleansDashboard.OrleansDashboard.DashboardGrain [-1509453 (0xFFE8F7B3)] from OrleansDashboard.dll implementing interfaces: OrleansDashboard.Client.IDashboardGrain [575822373 (0x22525A25)]
+Grain class OrleansDashboard.OrleansDashboard.DashboardRemindersGrain [-712222479 (0xD58C58F1)] from OrleansDashboard.dll implementing interfaces: OrleansDashboard.Client.IDashboardRemindersGrain [1868635291 (0x6F611C9B)]
+Grain class OrleansDashboard.Metrics.Grains.OrleansDashboard.Metrics.Grains.SiloGrain [1745300498 (0x68072C12)] from OrleansDashboard.dll implementing interfaces: OrleansDashboard.Client.ISiloGrain [1682523746 (0x64494662)], Orleans.IGrainWithStringKey [-1277021679 (0xB3E23211)]
+	
+[2019-06-29 12:21:00.778 GMT 12	Information	100452	Orleans.Runtime.InsideRuntimeClient]	Start InsideRuntimeClient took 116 Milliseconds	
+[2019-06-29 12:21:00.849 GMT 12	Information	100452	Orleans.Runtime.SiloLifecycleSubject]	Lifecycle observer Orleans.Runtime.InsideRuntimeClient started in stage 2000 which took 191 Milliseconds.	
+[2019-06-29 12:21:00.868 GMT 6	Information	100401	Orleans.Runtime.Silo]	Silo Start()	
+[2019-06-29 12:21:00.922 GMT 12	Warning	101215	Orleans.Runtime.Scheduler *stg/20/00000014.WorkItemGroup]	Task [Id=31, Status=RanToCompletion] in WorkGroup [SystemTarget: S127.0.0.1:11111:299506858*stg/20/00000014@S00000014] took elapsed time 0:00:00.4545428 for execution, which is longer than 00:00:00.2000000. Running on thread System.Threading.Thread	
+[2019-06-29 12:21:00.936 GMT 6	Information	100430	Orleans.Runtime.Silo]	Configured ThreadPool.SetMinThreads() to values: 200,200. Previous values are: 4,4.	
+[2019-06-29 12:21:00.945 GMT 6	Information	100436	Orleans.Runtime.Silo]	Configured .NET ServicePointManager to Expect100Continue=False, DefaultConnectionLimit=200, UseNagleAlgorithm=False to improve Azure storage performance.	
+[2019-06-29 12:21:00.954 GMT 6	Information	100452	Orleans.Runtime.Silo]	ConfigureThreadPoolAndServicePointSettings took 24 Milliseconds to finish	
+[2019-06-29 12:21:00.979 GMT 12	Information	100452	Orleans.Runtime.SiloLifecycleSubject]	Lifecycle observer Orleans.Runtime.Silo started in stage 2000 which took 121 Milliseconds.	
+[2019-06-29 12:21:01.010 GMT 12	Information	100452	Orleans.Runtime.SiloLifecycleSubject]	Starting lifecycle stage 2000 took 393.2724 Milliseconds	
+[2019-06-29 12:21:01.057 GMT 6	Information	0	Orleans.Runtime.Messaging.IncomingMessageAcceptor]	Starting AsyncAgent Runtime.Messaging.IncomingMessageAcceptor on managed thread 6	
+[2019-06-29 12:21:01.085 GMT 18	Information	0	Orleans.Threading.ThreadPoolThread]	Starting thread Runtime.Messaging.IncomingMessageAcceptor0 on managed thread 18	
+[2019-06-29 12:21:01.090 GMT 6	Information	0	Runtime.Messaging.SiloMessageSender/PingSender]	Starting AsyncAgent Runtime.Messaging.SiloMessageSender/PingSender on managed thread 6	
+[2019-06-29 12:21:01.095 GMT 6	Information	0	Runtime.Messaging.SiloMessageSender/SystemSender]	Starting AsyncAgent Runtime.Messaging.SiloMessageSender/SystemSender on managed thread 6	
+[2019-06-29 12:21:01.109 GMT 19	Information	0	Orleans.Threading.ThreadPoolThread]	Starting thread Runtime.Messaging.SiloMessageSender/PingSender0 on managed thread 19	
+[2019-06-29 12:21:01.114 GMT 6	Information	100452	Orleans.Runtime.Silo]	Start Message center took 57 Milliseconds to finish	
+[2019-06-29 12:21:01.129 GMT 20	Information	0	Orleans.Threading.ThreadPoolThread]	Starting thread Runtime.Messaging.SiloMessageSender/SystemSender0 on managed thread 20	
+[2019-06-29 12:21:01.135 GMT 6	Information	0	Runtime.Messaging.IncomingMessageAgent/Ping]	Starting AsyncAgent Runtime.Messaging.IncomingMessageAgent/Ping on managed thread 6	
+[2019-06-29 12:21:01.144 GMT 6	Information	0	Runtime.Messaging.IncomingMessageAgent/System]	Starting AsyncAgent Runtime.Messaging.IncomingMessageAgent/System on managed thread 6	
+[2019-06-29 12:21:01.157 GMT 21	Information	0	Orleans.Threading.ThreadPoolThread]	Starting thread Runtime.Messaging.IncomingMessageAgent/Ping0 on managed thread 21	
+[2019-06-29 12:21:01.185 GMT 6	Information	0	Runtime.Messaging.IncomingMessageAgent/Application]	Starting AsyncAgent Runtime.Messaging.IncomingMessageAgent/Application on managed thread 6	
+[2019-06-29 12:21:01.203 GMT 22	Information	0	Orleans.Threading.ThreadPoolThread]	Starting thread Runtime.Messaging.IncomingMessageAgent/System0 on managed thread 22	
+[2019-06-29 12:21:01.212 GMT 6	Information	100452	Orleans.Runtime.Silo]	Start Incoming message agents took 83 Milliseconds to finish	
+[2019-06-29 12:21:01.242 GMT 23	Information	0	Orleans.Threading.ThreadPoolThread]	Starting thread Runtime.Messaging.IncomingMessageAgent/Application0 on managed thread 23	
+[2019-06-29 12:21:01.244 GMT 6	Information	0	Orleans.Runtime.GrainDirectory.LocalGrainDirectory]	Start	
+[2019-06-29 12:21:01.254 GMT 6	Information	0	Runtime.GrainDirectory.AdaptiveDirectoryCacheMaintainer`1]	Starting AsyncAgent Runtime.GrainDirectory.AdaptiveDirectoryCacheMaintainer`1 on managed thread 6	
+[2019-06-29 12:21:01.260 GMT 6	Information	0	Runtime.GrainDirectory.GlobalSingleInstanceActivationMaintainer]	Starting AsyncAgent Runtime.GrainDirectory.GlobalSingleInstanceActivationMaintainer on managed thread 6	
+[2019-06-29 12:21:01.297 GMT 24	Information	0	Orleans.Threading.ThreadPoolThread]	Starting thread Runtime.GrainDirectory.AdaptiveDirectoryCacheMaintainer`10 on managed thread 24	
+[2019-06-29 12:21:01.307 GMT 6	Information	100452	Orleans.Runtime.Silo]	Start local grain directory took 91 Milliseconds to finish	
+[2019-06-29 12:21:01.323 GMT 25	Information	0	Orleans.Threading.ThreadPoolThread]	Starting thread Runtime.GrainDirectory.GlobalSingleInstanceActivationMaintainer0 on managed thread 25	
+[2019-06-29 12:21:01.353 GMT 6	Information	100452	Orleans.Runtime.Silo]	Init implicit stream subscribe table took 26 Milliseconds to finish	
+[2019-06-29 12:21:01.431 GMT 6	Information	100452	Orleans.Runtime.Silo]	Create system targets and inject dependencies took 69 Milliseconds to finish	
+[2019-06-29 12:21:01.434 GMT 11	Information	100452	Orleans.Runtime.SiloLifecycleSubject]	Lifecycle observer Orleans.Runtime.Silo started in stage 4000 which took 406 Milliseconds.	
+[2019-06-29 12:21:01.440 GMT 11	Information	100452	Orleans.Runtime.SiloLifecycleSubject]	Starting lifecycle stage 4000 took 413.2585 Milliseconds	
+[2019-06-29 12:21:01.473 GMT 6	Information	100452	Orleans.Runtime.Silo]	Init grain services took 8 Milliseconds to finish	
+[2019-06-29 12:21:01.538 GMT 11	Information	100452	Orleans.Runtime.SiloLifecycleSubject]	Lifecycle observer HostedClient started in stage 8000 which took 91 Milliseconds.	
+[2019-06-29 12:21:01.568 GMT 12	Information	100603	Orleans.Runtime.MembershipService.MembershipOracleData]	MembershipOracle starting on host = DUHO-PC address = S127.0.0.1:11111:299506858 at 2019-06-29 12:20:59.147 GMT, backOffMax = 00:00:02	
+[2019-06-29 12:21:01.587 GMT 11	Information	100507	Orleans.Runtime.Catalog]	Before collection#1: memory=7MB, #activations=0, collector=<#Activations=0, #Buckets=0, buckets=[]>.	
+[2019-06-29 12:21:01.591 GMT 12	Information	100635	Orleans.Runtime.MembershipService.SystemTargetBasedMembershipTable]	Creating in-memory membership table	
+[2019-06-29 12:21:01.599 GMT 12	Information	100637	Orleans.Runtime.MembershipService.MembershipTableSystemTarget]	GrainBasedMembershipTable Activated.	
+[2019-06-29 12:21:01.612 GMT 11	Information	100508	Orleans.Runtime.Catalog]	After collection#1: memory=7MB, #activations=0, collected 0 activations, collector=<#Activations=0, #Buckets=0, buckets=[]>, collection time=00:00:00.0445487.	
+[2019-06-29 12:21:01.989 GMT 11	Information	100631	Orleans.Runtime.MembershipService.SystemTargetBasedMembershipTable]	-Connected to membership table provider.	
+[2019-06-29 12:21:02.019 GMT 11	Information	100652	Orleans.Runtime.MembershipService.MembershipOracleData]	-CleanupTable called on silo startup. Membership table 0 silos, 0 are Active, 0 are Dead, Version=<0, 0>. All silos: []	
+[2019-06-29 12:21:02.113 GMT 11	Information	100660	Orleans.Runtime.MembershipService.MembershipOracleData]	Starting IAmAliveUpdateTimer.	
+[2019-06-29 12:21:02.159 GMT 6	Information	100452	Orleans.Runtime.Silo]	Starting local silo status oracle took 673 Milliseconds to finish	
+[2019-06-29 12:21:02.187 GMT 6	Information	100452	Orleans.Runtime.Silo]	Init type manager took 23 Milliseconds to finish	
+[2019-06-29 12:21:02.191 GMT 6	Information	100702	Orleans.Runtime.CounterStatistic]	Starting Windows perf counter stats collection with frequency=00:00:30	
+[2019-06-29 12:21:02.194 GMT 6	Information	100452	Orleans.Runtime.Silo]	Start silo statistics took 5 Milliseconds to finish	
+[2019-06-29 12:21:02.210 GMT 11	Information	0	Orleans.Runtime.DeploymentLoadPublisher]	Starting DeploymentLoadPublisher.	
+[2019-06-29 12:21:02.230 GMT 11	Information	0	Orleans.Runtime.DeploymentLoadPublisher]	Started DeploymentLoadPublisher.	
+[2019-06-29 12:21:02.237 GMT 7	Information	100452	Orleans.Runtime.Silo]	Start deployment load collector took 40 Milliseconds to finish	
+[2019-06-29 12:21:02.244 GMT 7	Information	0	Orleans.Runtime.Watchdog]	Starting Silo Watchdog.	
+[2019-06-29 12:21:02.247 GMT 7	Information	0	Runtime.Watchdog]	Starting AsyncAgent Runtime.Watchdog on managed thread 7	
+[2019-06-29 12:21:02.268 GMT 11	Information	100452	Orleans.Runtime.SiloLifecycleSubject]	Lifecycle observer Orleans.Runtime.Silo started in stage 8000 which took 822 Milliseconds.	
+[2019-06-29 12:21:02.268 GMT 30	Information	0	Orleans.Threading.ThreadPoolThread]	Starting thread Runtime.Watchdog0 on managed thread 30	
+[2019-06-29 12:21:02.273 GMT 11	Information	100452	Orleans.Runtime.SiloLifecycleSubject]	Starting lifecycle stage 8000 took 828.2965 Milliseconds	
+[2019-06-29 12:21:02.281 GMT 11	Information	100452	Orleans.Runtime.SiloLifecycleSubject]	Lifecycle observer Orleans.Runtime.Versions.GrainVersionStore started in stage 10000 which took 1 Milliseconds.	
+[2019-06-29 12:21:02.914 GMT 11	Warning	101215	Orleans.Runtime.Scheduler *stg/20/00000014.WorkItemGroup]	Task [Id=195, Status=RanToCompletion] in WorkGroup [SystemTarget: S127.0.0.1:11111:299506858*stg/20/00000014@S00000014] took elapsed time 0:00:00.6463114 for execution, which is longer than 00:00:00.2000000. Running on thread System.Threading.Thread	
+[2019-06-29 12:21:02.971 GMT 7	Information	200409	Orleans.Storage.AdoNetGrainStorage]	Initialized storage provider: ServiceId=HelloApp ProviderName=Default Invariant=MySql.Data.MySqlClient ConnectionString=Server=localhost;Uid=root;Pwd='';Persist Security Info=true;Database=HelloOrleans;SslMode=none.	
+[2019-06-29 12:21:02.978 GMT 11	Information	100452	Orleans.Runtime.SiloLifecycleSubject]	Lifecycle observer Orleans.Storage.AdoNetGrainStorage-Default started in stage 10000 which took 691 Milliseconds.	
+[2019-06-29 12:21:02.984 GMT 11	Information	100452	Orleans.Runtime.SiloLifecycleSubject]	Starting lifecycle stage 10000 took 704.6022 Milliseconds	
+[2019-06-29 12:21:02.995 GMT 9	Warning	100506	Orleans.Runtime.Catalog]	AllActiveSilos SiloStatusOracle.GetApproximateSiloStatuses empty	
+[2019-06-29 12:21:03.007 GMT 6	Information	0	Orleans.Runtime.Messaging.IncomingMessageAcceptor]	Starting AsyncAgent Runtime.Messaging.GatewayAcceptor on managed thread 6	
+[2019-06-29 12:21:03.018 GMT 6	Information	0	Runtime.Messaging.GatewayClientCleanupAgent]	Starting AsyncAgent Runtime.Messaging.GatewayClientCleanupAgent on managed thread 6	
+[2019-06-29 12:21:03.036 GMT 32	Information	0	Orleans.Threading.ThreadPoolThread]	Starting thread Runtime.Messaging.GatewayAcceptor0 on managed thread 32	
+[2019-06-29 12:21:03.045 GMT 6	Information	100452	Orleans.Runtime.Silo]	Start gateway took 47 Milliseconds to finish	
+[2019-06-29 12:21:03.056 GMT 33	Information	0	Orleans.Threading.ThreadPoolThread]	Starting thread Runtime.Messaging.GatewayClientCleanupAgent0 on managed thread 33	
+[2019-06-29 12:21:03.077 GMT 12	Information	100604	Orleans.Runtime.MembershipService.MembershipOracleData]	-BecomeActive	
+[2019-06-29 12:21:03.098 GMT 12	Information	100614	Orleans.Runtime.MembershipService.MembershipOracleData]	About to send pings to 0 nodes in order to validate communication in the Joining state. Pinged nodes = []	
+[2019-06-29 12:21:03.112 GMT 12	Information	0	Orleans.Runtime.TypeManager]	Expediting cluster type map refresh due to new silo, S127.0.0.1:11111:299506858	
+[2019-06-29 12:21:03.216 GMT 12	Information	100634	Orleans.Runtime.MembershipService.MembershipOracleData]	-ReadAll (called from BecomeActive) Membership table 1 silos, 1 are Active, 0 are Dead, Version=<2, 5>. All silos: [SiloAddress=S127.0.0.1:11111:299506858 SiloName=Silo_d0a95 Status=Active]	
+[2019-06-29 12:21:03.245 GMT 12	Information	100605	Orleans.Runtime.MembershipService.MembershipOracleData]	-Finished BecomeActive.	
+[2019-06-29 12:21:03.275 GMT 6	Information	100452	Orleans.Runtime.Silo]	Starting local silo status oracle took 217 Milliseconds to finish	
+[2019-06-29 12:21:03.285 GMT 11	Information	100452	Orleans.Runtime.SiloLifecycleSubject]	Lifecycle observer Orleans.Runtime.Silo started in stage 19999 which took 297 Milliseconds.	
+[2019-06-29 12:21:03.291 GMT 11	Information	100452	Orleans.Runtime.SiloLifecycleSubject]	Starting lifecycle stage 19999 took 303.2462 Milliseconds	
+[2019-06-29 12:21:03.361 GMT 6	Information	200411	Orleans.Storage.AdoNetGrainStorage]	Null grain state read (default will be instantiated): ServiceId=HelloApp ProviderName=Default GrainType=Orleans.Runtime.Versions.VersionStoreGrain GrainId=0#dev ETag=.	
+[2019-06-29 12:21:05.144 GMT 12	Warning	101215	Orleans.Runtime.Scheduler *stg/17/00000011.WorkItemGroup]	Task [Id=364, Status=RanToCompletion] in WorkGroup [SystemTarget: S127.0.0.1:11111:299506858*stg/17/00000011@S00000011] took elapsed time 0:00:01.7456072 for execution, which is longer than 00:00:00.2000000. Running on thread System.Threading.Thread	
+[2019-06-29 12:21:05.233 GMT 12	Information	100520	Orleans.Runtime.Catalog]	Tried to create a duplicate activation S127.0.0.1:11111:299506858*grn/7483D9D2/00000000@eb6f2b89, but we'll use S127.0.0.1:11111:299506858*grn/7483D9D2/00000000@44cd9090 instead. GrainInstanceType is Orleans.Runtime.Management.ManagementGrain. Primary Directory partition for this grain is S127.0.0.1:11111:299506858. Full activation address is [ActivationAddress: S127.0.0.1:11111:299506858*grn/7483D9D2/00000000@eb6f2b89, Full GrainId: [GrainId: *grn/7483D9D2/00000000000000000000000000000000030000007483d9d2-0x26B452AD, IdCategory: Grain, BaseTypeCode: 1954798034 (x7483D9D2), PrimaryKey: 0 (x0), UniformHashCode: 649351853 (0x26B452AD)], Full ActivationId: @4fc7f7aec544697a9cbfb871eb6f2b890000000000000000]. We have 1 messages to forward.	
+[2019-06-29 12:21:05.254 GMT 12	Information	101033	Orleans.Runtime.Dispatcher]	Forwarding 1 requests destined for address S127.0.0.1:11111:299506858*grn/7483D9D2/00000000@eb6f2b89 to address S127.0.0.1:11111:299506858*grn/7483D9D2/00000000@44cd9090 after Duplicate activation.	
+[2019-06-29 12:21:05.293 GMT 12	Information	101031	Orleans.Runtime.Dispatcher]	Trying to forward after Duplicate activation, ForwardCount = 0. OldAddress = S127.0.0.1:11111:299506858*grn/7483D9D2/00000000@eb6f2b89, ForwardingAddress = S127.0.0.1:11111:299506858*grn/7483D9D2/00000000@44cd9090, Message NewPlacement Request S127.0.0.1:11111:299506858*grn/FFE8F7B3/00000000@62f5fb95->S127.0.0.1:11111:299506858*grn/7483D9D2/00000000@eb6f2b89 #16: , Exception: (null).	
+[2019-06-29 12:21:05.353 GMT 12	Information	100520	Orleans.Runtime.Catalog]	Tried to create a duplicate activation S127.0.0.1:11111:299506858*grn/7483D9D2/00000000@7e8b25ae, but we'll use S127.0.0.1:11111:299506858*grn/7483D9D2/00000000@44cd9090 instead. GrainInstanceType is Orleans.Runtime.Management.ManagementGrain. Primary Directory partition for this grain is S127.0.0.1:11111:299506858. Full activation address is [ActivationAddress: S127.0.0.1:11111:299506858*grn/7483D9D2/00000000@7e8b25ae, Full GrainId: [GrainId: *grn/7483D9D2/00000000000000000000000000000000030000007483d9d2-0x26B452AD, IdCategory: Grain, BaseTypeCode: 1954798034 (x7483D9D2), PrimaryKey: 0 (x0), UniformHashCode: 649351853 (0x26B452AD)], Full ActivationId: @49ae75a24c98fb2629c873517e8b25ae0000000000000000]. We have 1 messages to forward.	
+[2019-06-29 12:21:05.356 GMT 12	Information	101033	Orleans.Runtime.Dispatcher]	Forwarding 1 requests destined for address S127.0.0.1:11111:299506858*grn/7483D9D2/00000000@7e8b25ae to address S127.0.0.1:11111:299506858*grn/7483D9D2/00000000@44cd9090 after Duplicate activation.	
+[2019-06-29 12:21:05.360 GMT 12	Information	101031	Orleans.Runtime.Dispatcher]	Trying to forward after Duplicate activation, ForwardCount = 0. OldAddress = S127.0.0.1:11111:299506858*grn/7483D9D2/00000000@7e8b25ae, ForwardingAddress = S127.0.0.1:11111:299506858*grn/7483D9D2/00000000@44cd9090, Message NewPlacement Request S127.0.0.1:11111:299506858*grn/FFE8F7B3/00000000@62f5fb95->S127.0.0.1:11111:299506858*grn/7483D9D2/00000000@7e8b25ae #17: , Exception: (null).	
+[2019-06-29 12:21:05.443 GMT 11	Information	0	OrleansDashboard.Dashboard]	Dashboard listening on 8080	
+[2019-06-29 12:21:05.455 GMT 11	Information	100452	Orleans.Runtime.SiloLifecycleSubject]	Lifecycle observer Orleans.Hosting.SiloBuilderStartupExtensions+StartupTask started in stage 20000 which took 2159 Milliseconds.	
+[2019-06-29 12:21:05.459 GMT 11	Warning	101215	Orleans.Runtime.Scheduler *stg/20/00000014.WorkItemGroup]	Task [Id=336, Status=RanToCompletion] in WorkGroup [SystemTarget: S127.0.0.1:11111:299506858*stg/20/00000014@S00000014] took elapsed time 0:00:02.17377 for execution, which is longer than 00:00:00.2000000. Running on thread System.Threading.Thread	
+[2019-06-29 12:21:05.475 GMT 11	Information	100452	Orleans.Runtime.SiloLifecycleSubject]	Lifecycle observer Orleans.Runtime.Silo started in stage 20000 which took 17 Milliseconds.	
+[2019-06-29 12:21:05.483 GMT 11	Information	100452	Orleans.Runtime.SiloLifecycleSubject]	Starting lifecycle stage 20000 took 2187.9962 Milliseconds	
+[2019-06-29 12:21:05.548 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:05.590 GMT 16	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:06.679 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:06.684 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:07.696 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:07.699 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:08.734 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:08.742 GMT 16	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:09.757 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:09.763 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:10.778 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:10.783 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:11.806 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:11.812 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:12.841 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:12.846 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:13.867 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:13.875 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:14.898 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:14.905 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:15.934 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:15.941 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:16.961 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:16.965 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:18.012 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:18.016 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:19.039 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:19.043 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:20.069 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:20.074 GMT 16	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:21.086 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:21.089 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:22.111 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:22.114 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:23.130 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:23.133 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:24.156 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:24.162 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:25.183 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:25.187 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:26.210 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:26.215 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:27.246 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:27.251 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:28.280 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:28.291 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:29.319 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:29.323 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:30.333 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:30.339 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:31.351 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:31.354 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:32.370 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:32.376 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:33.397 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:33.400 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:34.416 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:34.421 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:35.445 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:35.449 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:36.478 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:36.482 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:37.506 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:37.511 GMT 15	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:38.532 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:38.536 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:39.561 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:39.564 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:40.584 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:40.587 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:41.602 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:41.606 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:42.624 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:42.627 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:43.652 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:43.656 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:44.678 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:44.683 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:45.707 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:45.710 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:46.726 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:46.729 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:47.741 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:47.744 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:48.772 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:48.777 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:49.803 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:49.807 GMT 16	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:50.821 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:50.828 GMT 15	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:51.850 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:51.853 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:52.876 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:52.881 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:53.895 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:53.901 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:54.914 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:54.918 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:55.943 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:55.948 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:57.007 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:57.016 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:58.164 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:58.168 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:21:59.189 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:21:59.193 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:00.211 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:00.215 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:01.233 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:01.238 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:01.635 GMT 12	Information	100507	Orleans.Runtime.Catalog]	Before collection#2: memory=9MB, #activations=4, collector=<#Activations=4, #Buckets=2, buckets=[1h:59m:58s.370ms->1 items, 2h:0m:58s.370ms->3 items]>.	
+[2019-06-29 12:22:01.638 GMT 12	Information	100508	Orleans.Runtime.Catalog]	After collection#2: memory=9MB, #activations=4, collected 0 activations, collector=<#Activations=4, #Buckets=2, buckets=[1h:59m:58s.361ms->1 items, 2h:0m:58s.361ms->3 items]>, collection time=00:00:00.0089880.	
+[2019-06-29 12:22:02.261 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:02.264 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:03.294 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:03.298 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:04.322 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:04.330 GMT 15	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:05.353 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:05.358 GMT 15	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:06.396 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:06.401 GMT 16	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:07.430 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:07.434 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:08.471 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:08.477 GMT 16	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:09.510 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:09.514 GMT 16	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:10.547 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:10.557 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:11.596 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:11.634 GMT 15	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:12.682 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:12.687 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:13.709 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:13.714 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:14.740 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:14.745 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:15.756 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:15.760 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:16.779 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:16.784 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:17.829 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:17.838 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:18.870 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:18.875 GMT 15	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:19.922 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:19.926 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:20.952 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:20.960 GMT 16	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:21.992 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:21.996 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:23.022 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:23.026 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:24.052 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:24.055 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:25.078 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:25.083 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:26.105 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:26.109 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:27.131 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:27.135 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:28.155 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:28.159 GMT 16	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:29.180 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:29.183 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:30.208 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:30.212 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:31.223 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:31.226 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:32.241 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:32.245 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:33.264 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:33.274 GMT 15	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:34.309 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:34.312 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:35.336 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:35.341 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:36.367 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:36.371 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:37.490 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:37.503 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:38.548 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:38.554 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:39.574 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:39.578 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:40.608 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:40.616 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:41.650 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:41.653 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:42.677 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:42.681 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:43.699 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:43.702 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:44.729 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:44.732 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:45.760 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:45.765 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:46.788 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:46.792 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:47.817 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:47.821 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:48.842 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:48.846 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:49.864 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:49.870 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:50.882 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:50.887 GMT 15	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:51.914 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:51.917 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:52.942 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:52.945 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:53.970 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:53.973 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:54.990 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:54.992 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:56.009 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:56.013 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:57.037 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:57.040 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:58.069 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:58.073 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:22:59.100 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:22:59.103 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:00.126 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:00.129 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:01.147 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:01.151 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:01.642 GMT 11	Information	100507	Orleans.Runtime.Catalog]	Before collection#3: memory=9MB, #activations=4, collector=<#Activations=4, #Buckets=3, buckets=[1h:58m:58s.357ms->1 items, 1h:59m:58s.357ms->0 items, 2h:0m:58s.357ms->3 items]>.	
+[2019-06-29 12:23:01.645 GMT 11	Information	100508	Orleans.Runtime.Catalog]	After collection#3: memory=9MB, #activations=4, collected 0 activations, collector=<#Activations=4, #Buckets=3, buckets=[1h:58m:58s.354ms->1 items, 1h:59m:58s.354ms->0 items, 2h:0m:58s.354ms->3 items]>, collection time=00:00:00.0031115.	
+[2019-06-29 12:23:02.174 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:02.178 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:03.197 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:03.200 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:04.228 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:04.231 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:05.243 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:05.247 GMT 16	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:06.272 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:06.276 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:07.306 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:07.310 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:08.323 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:08.327 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:09.348 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:09.352 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:10.365 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:10.369 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:11.380 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:11.386 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:12.413 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:12.419 GMT 16	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:13.444 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:13.447 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:14.460 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:14.464 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:15.477 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:15.480 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:16.504 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:16.509 GMT 15	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:17.580 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:17.583 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:18.603 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:18.616 GMT 15	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:19.659 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:19.680 GMT 15	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:20.392 GMT 6	Information	101301	Orleans.Runtime.Messaging.Gateway]	Recorded opened socket from endpoint 127.0.0.1:8645, client ID *cli/23eed6b6.	
+[2019-06-29 12:23:20.510 GMT 12	Information	0	Runtime.Messaging.GatewaySender/GatewaySiloSender_0]	Starting AsyncAgent Runtime.Messaging.GatewaySender/GatewaySiloSender_0 on managed thread 12	
+[2019-06-29 12:23:20.523 GMT 36	Information	0	Orleans.Threading.ThreadPoolThread]	Starting thread Runtime.Messaging.GatewaySender/GatewaySiloSender_00 on managed thread 36	
+[2019-06-29 12:23:20.710 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:20.713 GMT 15	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:20.721 GMT 6	Information	200411	Orleans.Storage.AdoNetGrainStorage]	Null grain state read (default will be instantiated): ServiceId=HelloApp ProviderName=Default GrainType=Grains.GreetingsGrain GrainId=0 ETag=.	
+[2019-06-29 12:23:20.858 GMT 13	Information	0	SiloHost.Filters.LoggingFilter]	LOGGING_FILTER TraceId: 00000000-0000-0000-0000-000000000000 Grains.GreetingsGrain.SendGreeting: arguments: ["Hello"] request	
+[2019-06-29 12:23:21.120 GMT 13	Warning	101215	Orleans.Runtime.Scheduler.WorkItemGroup]	Task [Id=27330, Status=RanToCompletion] in WorkGroup [Activation: S127.0.0.1:11111:299506858*grn/7D184865/00000000@2b8acd9e #GrainType=Grains.GreetingsGrain Placement=RandomPlacement State=Valid] took elapsed time 0:00:00.372465 for execution, which is longer than 00:00:00.2000000. Running on thread System.Threading.Thread	
+[2019-06-29 12:23:21.148 GMT 16	Information	0	SiloHost.Filters.LoggingFilter]	LOGGING_FILTER  TraceId: 00000000-0000-0000-0000-000000000000 Grains.GreetingsGrain.SendGreeting: result: "Hello" request	
+[2019-06-29 12:23:21.153 GMT 13	Information	0	SiloHost.Filters.LoggingFilter]	LOGGING_FILTER TraceId: 00000000-0000-0000-0000-000000000000 Grains.GreetingsGrain.SendGreeting: arguments: ["Morning"] request	
+[2019-06-29 12:23:21.161 GMT 15	Information	0	SiloHost.Filters.LoggingFilter]	LOGGING_FILTER  TraceId: 00000000-0000-0000-0000-000000000000 Grains.GreetingsGrain.SendGreeting: result: "Morning" request	
+[2019-06-29 12:23:21.164 GMT 15	Information	0	SiloHost.Filters.LoggingFilter]	LOGGING_FILTER TraceId: 00000000-0000-0000-0000-000000000000 Grains.GreetingsGrain.SendGreeting: arguments: ["Afternoon"] request	
+[2019-06-29 12:23:21.172 GMT 13	Information	0	SiloHost.Filters.LoggingFilter]	LOGGING_FILTER  TraceId: 00000000-0000-0000-0000-000000000000 Grains.GreetingsGrain.SendGreeting: result: "Afternoon" request	
+[2019-06-29 12:23:21.733 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:21.736 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:22.764 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:22.767 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:23.793 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:23.797 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:24.825 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:24.828 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:25.849 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:25.852 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:26.866 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:26.869 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:27.886 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:27.889 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:28.911 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:28.915 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:29.930 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:29.934 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:30.959 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:30.963 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:31.982 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:31.985 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:33.005 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:33.009 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:34.024 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:34.032 GMT 15	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:35.093 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:35.096 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:36.136 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:36.140 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:37.167 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:37.171 GMT 17	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:38.192 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:38.196 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:39.214 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:39.218 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:40.244 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:40.248 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:41.274 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:41.277 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:42.303 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:42.306 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:43.320 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:43.323 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:44.335 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:44.339 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:45.365 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:45.369 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:46.381 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:46.385 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:47.398 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:47.401 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:48.411 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:48.414 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:49.434 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:49.437 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:50.462 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:50.466 GMT 16	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:51.495 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:51.498 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:52.521 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:52.524 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:53.539 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:53.543 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:54.567 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:54.570 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:55.585 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:55.588 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:56.599 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:56.602 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:57.625 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:57.629 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:58.648 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:58.651 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:23:59.664 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:23:59.667 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:00.693 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:00.696 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:01.656 GMT 11	Information	100507	Orleans.Runtime.Catalog]	Before collection#4: memory=9MB, #activations=5, collector=<#Activations=5, #Buckets=4, buckets=[1h:57m:58s.343ms->1 items, 1h:58m:58s.343ms->0 items, 1h:59m:58s.343ms->1 items, 2h:0m:58s.343ms->3 items]>.	
+[2019-06-29 12:24:01.659 GMT 11	Information	100508	Orleans.Runtime.Catalog]	After collection#4: memory=9MB, #activations=5, collected 0 activations, collector=<#Activations=5, #Buckets=4, buckets=[1h:57m:58s.340ms->1 items, 1h:58m:58s.340ms->0 items, 1h:59m:58s.340ms->1 items, 2h:0m:58s.340ms->3 items]>, collection time=00:00:00.0035584.	
+[2019-06-29 12:24:01.719 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:01.723 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:02.742 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:02.746 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:03.765 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:03.768 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:04.787 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:04.791 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:05.817 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:05.822 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:06.836 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:06.840 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:07.860 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:07.864 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:08.883 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:08.887 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:09.921 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:09.925 GMT 15	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:10.946 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:10.950 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:11.976 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:11.980 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:13.008 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:13.012 GMT 16	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:14.037 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:14.041 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:15.066 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:15.069 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:16.089 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:16.092 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:17.115 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:17.119 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:18.140 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:18.143 GMT 15	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:19.161 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:19.164 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:20.179 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:20.183 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:21.197 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:21.201 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:22.226 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:22.230 GMT 15	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:23.255 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:23.258 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:24.271 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:24.274 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:25.287 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:25.291 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:26.304 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:26.307 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:27.324 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:27.327 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:28.349 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:28.352 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:29.366 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:29.369 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:30.381 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:30.384 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:31.396 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:31.399 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:32.412 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:32.416 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:33.430 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:33.433 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:34.459 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:34.462 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:35.476 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:35.482 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:36.506 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:36.510 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:37.524 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:37.527 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:38.553 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:38.558 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:39.605 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:39.609 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:40.622 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:40.627 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:41.659 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:41.666 GMT 17	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:42.695 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:42.701 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:43.727 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:43.730 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:44.755 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:44.758 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:45.770 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:45.774 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:46.795 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:46.799 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:47.824 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:47.827 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:48.853 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:48.855 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:49.882 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:49.885 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:50.898 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:50.903 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:51.928 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:51.931 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:52.943 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:52.946 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:53.960 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:53.963 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:54.991 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:54.996 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:56.022 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:56.027 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:57.041 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:57.044 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:58.067 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:58.070 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:24:59.082 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:24:59.086 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:25:00.104 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:25:00.107 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:25:01.130 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:25:01.133 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:25:01.674 GMT 11	Information	100507	Orleans.Runtime.Catalog]	Before collection#5: memory=10MB, #activations=5, collector=<#Activations=5, #Buckets=5, buckets=[1h:56m:58s.325ms->1 items, 1h:57m:58s.325ms->0 items, 1h:58m:58s.325ms->1 items, 1h:59m:58s.325ms->0 items, 2h:0m:58s.325ms->3 items]>.	
+[2019-06-29 12:25:01.676 GMT 11	Information	100508	Orleans.Runtime.Catalog]	After collection#5: memory=10MB, #activations=5, collected 0 activations, collector=<#Activations=5, #Buckets=5, buckets=[1h:56m:58s.323ms->1 items, 1h:57m:58s.323ms->0 items, 1h:58m:58s.323ms->1 items, 1h:59m:58s.323ms->0 items, 2h:0m:58s.323ms->3 items]>, collection time=00:00:00.0028066.	
+[2019-06-29 12:25:02.145 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:25:02.149 GMT 15	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:25:03.176 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:25:03.179 GMT 15	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:25:04.195 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:25:04.198 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:25:05.213 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:25:05.217 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:25:06.244 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:25:06.248 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:25:07.270 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:25:07.273 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:25:08.298 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:25:08.301 GMT 15	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:25:09.319 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:25:09.322 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:25:10.341 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:25:10.345 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:25:11.366 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:25:11.369 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:25:12.385 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:25:12.389 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:25:13.414 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:25:13.417 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:25:14.442 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:25:14.446 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:25:15.471 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:25:15.474 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:25:16.498 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:25:16.502 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:25:17.523 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:25:17.529 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:25:18.552 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:25:18.560 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:25:19.590 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:25:19.594 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:25:20.613 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:25:20.618 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:25:21.648 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:25:21.652 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:25:22.677 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:25:22.680 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:25:23.693 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:25:23.697 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:25:24.711 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:25:24.714 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:25:25.743 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:25:25.747 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:25:26.760 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:25:26.767 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:25:27.789 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:25:27.792 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:25:28.807 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:25:28.810 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:25:29.835 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:25:29.839 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:25:30.866 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:25:30.869 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:25:31.884 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:25:31.887 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:25:32.912 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:25:32.915 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:25:33.943 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:46:59.293 GMT 1	Warning	100708	Orleans.Runtime.NoOpHostEnvironmentStatistics]	No implementation of IHostEnvironmentStatistics was found. Load shedding will not work yet	
+[2019-06-29 12:46:59.784 GMT 1	Information	0	Orleans.Runtime.Scheduler.OrleansTaskScheduler]	Starting OrleansTaskScheduler with 4 Max Active application Threads and 2 system thread.	
+[2019-06-29 12:47:00.591 GMT 1	Information	100404	Orleans.Runtime.Silo]	Silo starting with GC settings: ServerGC=False GCLatencyMode=Interactive	
+[2019-06-29 12:47:00.592 GMT 1	Warning	100405	Orleans.Runtime.Silo]	Note: Silo not running with ServerGC turned on - recommend checking app config : <configuration>-<runtime>-<gcServer enabled="true">	
+[2019-06-29 12:47:00.596 GMT 1	Warning	100405	Orleans.Runtime.Silo]	Note: ServerGC only kicks in on multi-core systems (settings enabling ServerGC have no effect on single-core machines).	
+[2019-06-29 12:47:00.602 GMT 1	Information	100403	Orleans.Runtime.Silo]	-------------- Initializing silo on host DUHO-PC MachineName DUHO-PC at 127.0.0.1:11111, gen 299508419 --------------	
+[2019-06-29 12:47:00.606 GMT 1	Information	100415	Orleans.Runtime.Silo]	Starting silo Silo_f1861	
+[2019-06-29 12:47:00.713 GMT 1	Information	101010	Orleans.Runtime.Messaging.IncomingMessageAcceptor]	Opened a listening socket at address 127.0.0.1:11111	
+[2019-06-29 12:47:00.725 GMT 1	Information	101010	Orleans.Runtime.Messaging.IncomingMessageAcceptor]	Opened a listening socket at address 127.0.0.1:30000	
+[2019-06-29 12:47:00.834 GMT 1	Information	0	Orleans.Runtime.ConsistentRing.VirtualBucketsRingProvider]	Starting VirtualBucketsRingProvider on silo S127.0.0.1:11111:299508419/xD94871CF.	
+[2019-06-29 12:47:00.890 GMT 1	Information	103003	Orleans.Runtime.ConsistentRing.VirtualBucketsRingProvider]	Added Server S127.0.0.1:11111:299508419/xD94871CF. Current view: [S127.0.0.1:11111:299508419 -> <MultiRange: Size=x100000000, %Ring=100.000%>]	
+[2019-06-29 12:47:00.896 GMT 1	Information	103005	Orleans.Runtime.ConsistentRing.VirtualBucketsRingProvider]	-NotifyLocalRangeSubscribers about old <(0 0], Size=x100000000, %Ring=100.000%> new <MultiRange: Size=x100000000, %Ring=100.000%> increased? True	
+[2019-06-29 12:47:00.952 GMT 1	Information	0	Orleans.Runtime.Silo]	Skip multicluster oracle creation (no multicluster network configured)	
+[2019-06-29 12:47:01.011 GMT 1	Information	100422	Orleans.Runtime.Silo]	-------------- Started silo S127.0.0.1:11111:299508419, ConsistentHashCode D94871CF --------------	
+[2019-06-29 12:47:01.041 GMT 1	Information	0	Runtime.Scheduler.OrleansSchedulerAsynchAgent/Scheduler.LevelOne.SystemQueue]	Starting AsyncAgent Runtime.Scheduler.OrleansSchedulerAsynchAgent/Scheduler.LevelOne.SystemQueue on managed thread 1	
+[2019-06-29 12:47:01.188 GMT 1	Information	0	Runtime.Scheduler.OrleansSchedulerAsynchAgent/Scheduler.LevelOne.MainQueue]	Starting AsyncAgent Runtime.Scheduler.OrleansSchedulerAsynchAgent/Scheduler.LevelOne.MainQueue on managed thread 1	
+[2019-06-29 12:47:01.192 GMT 12	Information	0	Orleans.Threading.ThreadPoolThread]	Starting thread Runtime.Scheduler.OrleansSchedulerAsynchAgent/Scheduler.LevelOne.SystemQueue1 on managed thread 12	
+[2019-06-29 12:47:01.192 GMT 11	Information	0	Orleans.Threading.ThreadPoolThread]	Starting thread Runtime.Scheduler.OrleansSchedulerAsynchAgent/Scheduler.LevelOne.SystemQueue0 on managed thread 11	
+[2019-06-29 12:47:01.215 GMT 13	Information	0	Orleans.Threading.ThreadPoolThread]	Starting thread Runtime.Scheduler.OrleansSchedulerAsynchAgent/Scheduler.LevelOne.MainQueue0 on managed thread 13	
+[2019-06-29 12:47:01.240 GMT 15	Information	0	Orleans.Threading.ThreadPoolThread]	Starting thread Runtime.Scheduler.OrleansSchedulerAsynchAgent/Scheduler.LevelOne.MainQueue1 on managed thread 15	
+[2019-06-29 12:47:01.255 GMT 16	Information	0	Orleans.Threading.ThreadPoolThread]	Starting thread Runtime.Scheduler.OrleansSchedulerAsynchAgent/Scheduler.LevelOne.MainQueue2 on managed thread 16	
+[2019-06-29 12:47:01.285 GMT 1	Information	100452	Orleans.Runtime.Silo]	Start Scheduler took 253 Milliseconds to finish	
+[2019-06-29 12:47:01.285 GMT 17	Information	0	Orleans.Threading.ThreadPoolThread]	Starting thread Runtime.Scheduler.OrleansSchedulerAsynchAgent/Scheduler.LevelOne.MainQueue3 on managed thread 17	
+[2019-06-29 12:47:01.382 GMT 12	Information	100453	Orleans.Runtime.SiloLifecycleSubject]	Stage 2000: Orleans.Runtime.InsideRuntimeClient, Orleans.Runtime.Silo	
+[2019-06-29 12:47:01.384 GMT 12	Information	100453	Orleans.Runtime.SiloLifecycleSubject]	Stage 4000: Orleans.Runtime.Silo	
+[2019-06-29 12:47:01.386 GMT 12	Information	100453	Orleans.Runtime.SiloLifecycleSubject]	Stage 8000: HostedClient, Orleans.Runtime.Silo	
+[2019-06-29 12:47:01.389 GMT 12	Information	100453	Orleans.Runtime.SiloLifecycleSubject]	Stage 10000: Orleans.Runtime.Versions.GrainVersionStore, Orleans.Storage.AdoNetGrainStorage-Default	
+[2019-06-29 12:47:01.392 GMT 12	Information	100453	Orleans.Runtime.SiloLifecycleSubject]	Stage 19999: Orleans.Runtime.Silo	
+[2019-06-29 12:47:01.396 GMT 12	Information	100453	Orleans.Runtime.SiloLifecycleSubject]	Stage 20000: Orleans.Hosting.SiloBuilderStartupExtensions+StartupTask, Orleans.Runtime.Silo	
+[2019-06-29 12:47:01.444 GMT 12	Information	101711	Orleans.Runtime.GrainTypeManager]	Loaded grain type summary for 10 types: 
+Grain class Grains.Grains.GreetingsGrain [2098743397 (0x7D184865)] from Grains.dll implementing interfaces: Orleans.MultiCluster.ILogConsistencyProtocolParticipant [-287197741 (0xEEE1B5D3)], Interfaces.IGreetingGrain [1221253694 (0x48CADA3E)]
+Grain class Grains.Grains.HelloGrain [1448337097 (0x5653DEC9)] from Grains.dll implementing interfaces: Interfaces.IHello [274936967 (0x10633487)]
+Grain class Orleans.Runtime.Development.Orleans.Runtime.Development.DevelopmentLeaseProviderGrain [940524075 (0x380F422B)] from Orleans.Runtime.dll implementing interfaces: Orleans.Runtime.Development.IDevelopmentLeaseProviderGrain [-1234611069 (0xB6695483)]
+Grain class Orleans.Runtime.Management.Orleans.Runtime.Management.ManagementGrain [1954798034 (0x7483D9D2)] from Orleans.Runtime.dll implementing interfaces: Orleans.Runtime.IManagementGrain [-1734666656 (0x989B1660)]
+Grain class Orleans.Runtime.ReminderService.Orleans.Runtime.ReminderService.GrainBasedReminderTable [-55315191 (0xFCB3F509)] from Orleans.Runtime.dll implementing interfaces: Orleans.IReminderTableGrain [-1135060418 (0xBC585A3E)]
+Grain class Orleans.Runtime.Versions.Orleans.Runtime.Versions.VersionStoreGrain [331003096 (0x13BAB4D8)] from Orleans.Runtime.dll implementing interfaces: Orleans.Runtime.Versions.IVersionStoreGrain [-297600501 (0xEE42FA0B)], Orleans.IGrainWithStringKey [-1277021679 (0xB3E23211)]
+Grain class Orleans.Streams.Orleans.Streams.PubSubRendezvousGrain [1903070868 (0x716E8E94)] from Orleans.Runtime.dll implementing interfaces: Orleans.Streams.IPubSubRendezvousGrain [1746702088 (0x681C8F08)]
+Grain class OrleansDashboard.OrleansDashboard.DashboardGrain [-1509453 (0xFFE8F7B3)] from OrleansDashboard.dll implementing interfaces: OrleansDashboard.Client.IDashboardGrain [575822373 (0x22525A25)]
+Grain class OrleansDashboard.OrleansDashboard.DashboardRemindersGrain [-712222479 (0xD58C58F1)] from OrleansDashboard.dll implementing interfaces: OrleansDashboard.Client.IDashboardRemindersGrain [1868635291 (0x6F611C9B)]
+Grain class OrleansDashboard.Metrics.Grains.OrleansDashboard.Metrics.Grains.SiloGrain [1745300498 (0x68072C12)] from OrleansDashboard.dll implementing interfaces: OrleansDashboard.Client.ISiloGrain [1682523746 (0x64494662)], Orleans.IGrainWithStringKey [-1277021679 (0xB3E23211)]
+	
+[2019-06-29 12:47:01.455 GMT 12	Information	100452	Orleans.Runtime.InsideRuntimeClient]	Start InsideRuntimeClient took 27 Milliseconds	
+[2019-06-29 12:47:01.458 GMT 12	Information	100452	Orleans.Runtime.SiloLifecycleSubject]	Lifecycle observer Orleans.Runtime.InsideRuntimeClient started in stage 2000 which took 34 Milliseconds.	
+[2019-06-29 12:47:01.475 GMT 6	Information	100401	Orleans.Runtime.Silo]	Silo Start()	
+[2019-06-29 12:47:01.489 GMT 6	Information	100430	Orleans.Runtime.Silo]	Configured ThreadPool.SetMinThreads() to values: 200,200. Previous values are: 4,4.	
+[2019-06-29 12:47:01.493 GMT 6	Information	100436	Orleans.Runtime.Silo]	Configured .NET ServicePointManager to Expect100Continue=False, DefaultConnectionLimit=200, UseNagleAlgorithm=False to improve Azure storage performance.	
+[2019-06-29 12:47:01.498 GMT 6	Information	100452	Orleans.Runtime.Silo]	ConfigureThreadPoolAndServicePointSettings took 16 Milliseconds to finish	
+[2019-06-29 12:47:01.517 GMT 12	Information	100452	Orleans.Runtime.SiloLifecycleSubject]	Lifecycle observer Orleans.Runtime.Silo started in stage 2000 which took 53 Milliseconds.	
+[2019-06-29 12:47:01.530 GMT 12	Information	100452	Orleans.Runtime.SiloLifecycleSubject]	Starting lifecycle stage 2000 took 112.9784 Milliseconds	
+[2019-06-29 12:47:01.546 GMT 6	Information	0	Orleans.Runtime.Messaging.IncomingMessageAcceptor]	Starting AsyncAgent Runtime.Messaging.IncomingMessageAcceptor on managed thread 6	
+[2019-06-29 12:47:01.571 GMT 18	Information	0	Orleans.Threading.ThreadPoolThread]	Starting thread Runtime.Messaging.IncomingMessageAcceptor0 on managed thread 18	
+[2019-06-29 12:47:01.576 GMT 6	Information	0	Runtime.Messaging.SiloMessageSender/PingSender]	Starting AsyncAgent Runtime.Messaging.SiloMessageSender/PingSender on managed thread 6	
+[2019-06-29 12:47:01.583 GMT 6	Information	0	Runtime.Messaging.SiloMessageSender/SystemSender]	Starting AsyncAgent Runtime.Messaging.SiloMessageSender/SystemSender on managed thread 6	
+[2019-06-29 12:47:01.607 GMT 19	Information	0	Orleans.Threading.ThreadPoolThread]	Starting thread Runtime.Messaging.SiloMessageSender/PingSender0 on managed thread 19	
+[2019-06-29 12:47:01.610 GMT 6	Information	100452	Orleans.Runtime.Silo]	Start Message center took 64 Milliseconds to finish	
+[2019-06-29 12:47:01.622 GMT 20	Information	0	Orleans.Threading.ThreadPoolThread]	Starting thread Runtime.Messaging.SiloMessageSender/SystemSender0 on managed thread 20	
+[2019-06-29 12:47:01.629 GMT 6	Information	0	Runtime.Messaging.IncomingMessageAgent/Ping]	Starting AsyncAgent Runtime.Messaging.IncomingMessageAgent/Ping on managed thread 6	
+[2019-06-29 12:47:01.639 GMT 6	Information	0	Runtime.Messaging.IncomingMessageAgent/System]	Starting AsyncAgent Runtime.Messaging.IncomingMessageAgent/System on managed thread 6	
+[2019-06-29 12:47:01.657 GMT 21	Information	0	Orleans.Threading.ThreadPoolThread]	Starting thread Runtime.Messaging.IncomingMessageAgent/Ping0 on managed thread 21	
+[2019-06-29 12:47:01.663 GMT 6	Information	0	Runtime.Messaging.IncomingMessageAgent/Application]	Starting AsyncAgent Runtime.Messaging.IncomingMessageAgent/Application on managed thread 6	
+[2019-06-29 12:47:01.683 GMT 22	Information	0	Orleans.Threading.ThreadPoolThread]	Starting thread Runtime.Messaging.IncomingMessageAgent/System0 on managed thread 22	
+[2019-06-29 12:47:01.684 GMT 6	Information	100452	Orleans.Runtime.Silo]	Start Incoming message agents took 60 Milliseconds to finish	
+[2019-06-29 12:47:01.704 GMT 23	Information	0	Orleans.Threading.ThreadPoolThread]	Starting thread Runtime.Messaging.IncomingMessageAgent/Application0 on managed thread 23	
+[2019-06-29 12:47:01.707 GMT 6	Information	0	Orleans.Runtime.GrainDirectory.LocalGrainDirectory]	Start	
+[2019-06-29 12:47:01.730 GMT 6	Information	0	Runtime.GrainDirectory.AdaptiveDirectoryCacheMaintainer`1]	Starting AsyncAgent Runtime.GrainDirectory.AdaptiveDirectoryCacheMaintainer`1 on managed thread 6	
+[2019-06-29 12:47:01.745 GMT 6	Information	0	Runtime.GrainDirectory.GlobalSingleInstanceActivationMaintainer]	Starting AsyncAgent Runtime.GrainDirectory.GlobalSingleInstanceActivationMaintainer on managed thread 6	
+[2019-06-29 12:47:01.769 GMT 24	Information	0	Orleans.Threading.ThreadPoolThread]	Starting thread Runtime.GrainDirectory.AdaptiveDirectoryCacheMaintainer`10 on managed thread 24	
+[2019-06-29 12:47:01.786 GMT 6	Information	100452	Orleans.Runtime.Silo]	Start local grain directory took 80 Milliseconds to finish	
+[2019-06-29 12:47:01.802 GMT 25	Information	0	Orleans.Threading.ThreadPoolThread]	Starting thread Runtime.GrainDirectory.GlobalSingleInstanceActivationMaintainer0 on managed thread 25	
+[2019-06-29 12:47:01.818 GMT 6	Information	100452	Orleans.Runtime.Silo]	Init implicit stream subscribe table took 16 Milliseconds to finish	
+[2019-06-29 12:47:01.892 GMT 6	Information	100452	Orleans.Runtime.Silo]	Create system targets and inject dependencies took 66 Milliseconds to finish	
+[2019-06-29 12:47:01.895 GMT 11	Information	100452	Orleans.Runtime.SiloLifecycleSubject]	Lifecycle observer Orleans.Runtime.Silo started in stage 4000 which took 359 Milliseconds.	
+[2019-06-29 12:47:01.902 GMT 11	Information	100452	Orleans.Runtime.SiloLifecycleSubject]	Starting lifecycle stage 4000 took 366.7482 Milliseconds	
+[2019-06-29 12:47:01.956 GMT 12	Information	100507	Orleans.Runtime.Catalog]	Before collection#1: memory=7MB, #activations=0, collector=<#Activations=0, #Buckets=0, buckets=[]>.	
+[2019-06-29 12:47:01.973 GMT 12	Information	100508	Orleans.Runtime.Catalog]	After collection#1: memory=7MB, #activations=0, collected 0 activations, collector=<#Activations=0, #Buckets=0, buckets=[]>, collection time=00:00:00.0353378.	
+[2019-06-29 12:47:01.982 GMT 6	Information	100452	Orleans.Runtime.Silo]	Init grain services took 18 Milliseconds to finish	
+[2019-06-29 12:47:02.046 GMT 11	Information	100452	Orleans.Runtime.SiloLifecycleSubject]	Lifecycle observer HostedClient started in stage 8000 which took 135 Milliseconds.	
+[2019-06-29 12:47:02.059 GMT 11	Information	100603	Orleans.Runtime.MembershipService.MembershipOracleData]	MembershipOracle starting on host = DUHO-PC address = S127.0.0.1:11111:299508419 at 2019-06-29 12:46:59.819 GMT, backOffMax = 00:00:02	
+[2019-06-29 12:47:02.077 GMT 11	Information	100635	Orleans.Runtime.MembershipService.SystemTargetBasedMembershipTable]	Creating in-memory membership table	
+[2019-06-29 12:47:02.084 GMT 11	Information	100637	Orleans.Runtime.MembershipService.MembershipTableSystemTarget]	GrainBasedMembershipTable Activated.	
+[2019-06-29 12:47:02.427 GMT 11	Information	100631	Orleans.Runtime.MembershipService.SystemTargetBasedMembershipTable]	-Connected to membership table provider.	
+[2019-06-29 12:47:02.472 GMT 11	Information	100652	Orleans.Runtime.MembershipService.MembershipOracleData]	-CleanupTable called on silo startup. Membership table 0 silos, 0 are Active, 0 are Dead, Version=<0, 0>. All silos: []	
+[2019-06-29 12:47:02.614 GMT 12	Information	100660	Orleans.Runtime.MembershipService.MembershipOracleData]	Starting IAmAliveUpdateTimer.	
+[2019-06-29 12:47:02.653 GMT 6	Information	100452	Orleans.Runtime.Silo]	Starting local silo status oracle took 625 Milliseconds to finish	
+[2019-06-29 12:47:02.684 GMT 6	Information	100452	Orleans.Runtime.Silo]	Init type manager took 26 Milliseconds to finish	
+[2019-06-29 12:47:02.689 GMT 6	Information	100702	Orleans.Runtime.CounterStatistic]	Starting Windows perf counter stats collection with frequency=00:00:30	
+[2019-06-29 12:47:02.693 GMT 6	Information	100452	Orleans.Runtime.Silo]	Start silo statistics took 6 Milliseconds to finish	
+[2019-06-29 12:47:02.711 GMT 11	Information	0	Orleans.Runtime.DeploymentLoadPublisher]	Starting DeploymentLoadPublisher.	
+[2019-06-29 12:47:02.738 GMT 11	Information	0	Orleans.Runtime.DeploymentLoadPublisher]	Started DeploymentLoadPublisher.	
+[2019-06-29 12:47:02.745 GMT 6	Information	100452	Orleans.Runtime.Silo]	Start deployment load collector took 49 Milliseconds to finish	
+[2019-06-29 12:47:02.750 GMT 6	Information	0	Orleans.Runtime.Watchdog]	Starting Silo Watchdog.	
+[2019-06-29 12:47:02.753 GMT 6	Information	0	Runtime.Watchdog]	Starting AsyncAgent Runtime.Watchdog on managed thread 6	
+[2019-06-29 12:47:02.757 GMT 11	Information	100452	Orleans.Runtime.SiloLifecycleSubject]	Lifecycle observer Orleans.Runtime.Silo started in stage 8000 which took 849 Milliseconds.	
+[2019-06-29 12:47:02.773 GMT 30	Information	0	Orleans.Threading.ThreadPoolThread]	Starting thread Runtime.Watchdog0 on managed thread 30	
+[2019-06-29 12:47:02.773 GMT 11	Information	100452	Orleans.Runtime.SiloLifecycleSubject]	Starting lifecycle stage 8000 took 865.1684 Milliseconds	
+[2019-06-29 12:47:02.783 GMT 11	Information	100452	Orleans.Runtime.SiloLifecycleSubject]	Lifecycle observer Orleans.Runtime.Versions.GrainVersionStore started in stage 10000 which took 1 Milliseconds.	
+[2019-06-29 12:47:03.496 GMT 27	Warning	100506	Orleans.Runtime.Catalog]	AllActiveSilos SiloStatusOracle.GetApproximateSiloStatuses empty	
+[2019-06-29 12:47:03.562 GMT 11	Warning	101215	Orleans.Runtime.Scheduler *stg/20/00000014.WorkItemGroup]	Task [Id=195, Status=RanToCompletion] in WorkGroup [SystemTarget: S127.0.0.1:11111:299508419*stg/20/00000014@S00000014] took elapsed time 0:00:00.8024007 for execution, which is longer than 00:00:00.2000000. Running on thread System.Threading.Thread	
+[2019-06-29 12:47:03.642 GMT 27	Information	200409	Orleans.Storage.AdoNetGrainStorage]	Initialized storage provider: ServiceId=HelloApp ProviderName=Default Invariant=MySql.Data.MySqlClient ConnectionString=Server=localhost;Uid=root;Pwd='';Persist Security Info=true;Database=HelloOrleans;SslMode=none.	
+[2019-06-29 12:47:03.649 GMT 11	Information	100452	Orleans.Runtime.SiloLifecycleSubject]	Lifecycle observer Orleans.Storage.AdoNetGrainStorage-Default started in stage 10000 which took 850 Milliseconds.	
+[2019-06-29 12:47:03.652 GMT 11	Information	100452	Orleans.Runtime.SiloLifecycleSubject]	Starting lifecycle stage 10000 took 871.1856 Milliseconds	
+[2019-06-29 12:47:03.688 GMT 26	Information	0	Orleans.Runtime.Messaging.IncomingMessageAcceptor]	Starting AsyncAgent Runtime.Messaging.GatewayAcceptor on managed thread 26	
+[2019-06-29 12:47:03.700 GMT 26	Information	0	Runtime.Messaging.GatewayClientCleanupAgent]	Starting AsyncAgent Runtime.Messaging.GatewayClientCleanupAgent on managed thread 26	
+[2019-06-29 12:47:03.728 GMT 32	Information	0	Orleans.Threading.ThreadPoolThread]	Starting thread Runtime.Messaging.GatewayAcceptor0 on managed thread 32	
+[2019-06-29 12:47:03.743 GMT 26	Information	100452	Orleans.Runtime.Silo]	Start gateway took 61 Milliseconds to finish	
+[2019-06-29 12:47:03.765 GMT 33	Information	0	Orleans.Threading.ThreadPoolThread]	Starting thread Runtime.Messaging.GatewayClientCleanupAgent0 on managed thread 33	
+[2019-06-29 12:47:03.795 GMT 12	Information	100604	Orleans.Runtime.MembershipService.MembershipOracleData]	-BecomeActive	
+[2019-06-29 12:47:03.829 GMT 11	Information	100614	Orleans.Runtime.MembershipService.MembershipOracleData]	About to send pings to 0 nodes in order to validate communication in the Joining state. Pinged nodes = []	
+[2019-06-29 12:47:03.848 GMT 11	Information	0	Orleans.Runtime.TypeManager]	Expediting cluster type map refresh due to new silo, S127.0.0.1:11111:299508419	
+[2019-06-29 12:47:03.893 GMT 11	Information	100634	Orleans.Runtime.MembershipService.MembershipOracleData]	-ReadAll (called from BecomeActive) Membership table 1 silos, 1 are Active, 0 are Dead, Version=<2, 5>. All silos: [SiloAddress=S127.0.0.1:11111:299508419 SiloName=Silo_f1861 Status=Active]	
+[2019-06-29 12:47:03.905 GMT 11	Information	100605	Orleans.Runtime.MembershipService.MembershipOracleData]	-Finished BecomeActive.	
+[2019-06-29 12:47:03.917 GMT 6	Information	100452	Orleans.Runtime.Silo]	Starting local silo status oracle took 166 Milliseconds to finish	
+[2019-06-29 12:47:03.924 GMT 11	Information	100452	Orleans.Runtime.SiloLifecycleSubject]	Lifecycle observer Orleans.Runtime.Silo started in stage 19999 which took 257 Milliseconds.	
+[2019-06-29 12:47:03.965 GMT 11	Information	100452	Orleans.Runtime.SiloLifecycleSubject]	Starting lifecycle stage 19999 took 298.361 Milliseconds	
+[2019-06-29 12:47:05.803 GMT 13	Warning	101215	Orleans.Runtime.Scheduler.WorkItemGroup]	Task [Id=337, Status=RanToCompletion] in WorkGroup [Activation: S127.0.0.1:11111:299508419*grn/13BAB4D8/00000000+dev@3172ef85 #GrainType=Orleans.Runtime.Versions.VersionStoreGrain Placement=RandomPlacement State=Activating] took elapsed time 0:00:01.8107765 for execution, which is longer than 00:00:00.2000000. Running on thread System.Threading.Thread	
+[2019-06-29 12:47:05.813 GMT 7	Information	200411	Orleans.Storage.AdoNetGrainStorage]	Null grain state read (default will be instantiated): ServiceId=HelloApp ProviderName=Default GrainType=Orleans.Runtime.Versions.VersionStoreGrain GrainId=0#dev ETag=.	
+[2019-06-29 12:47:05.920 GMT 12	Information	100520	Orleans.Runtime.Catalog]	Tried to create a duplicate activation S127.0.0.1:11111:299508419*grn/7483D9D2/00000000@5758c99c, but we'll use S127.0.0.1:11111:299508419*grn/7483D9D2/00000000@c08602be instead. GrainInstanceType is Orleans.Runtime.Management.ManagementGrain. Primary Directory partition for this grain is S127.0.0.1:11111:299508419. Full activation address is [ActivationAddress: S127.0.0.1:11111:299508419*grn/7483D9D2/00000000@5758c99c, Full GrainId: [GrainId: *grn/7483D9D2/00000000000000000000000000000000030000007483d9d2-0x26B452AD, IdCategory: Grain, BaseTypeCode: 1954798034 (x7483D9D2), PrimaryKey: 0 (x0), UniformHashCode: 649351853 (0x26B452AD)], Full ActivationId: @417e7dbc2c700bd7e36bf4315758c99c0000000000000000]. We have 1 messages to forward.	
+[2019-06-29 12:47:05.949 GMT 12	Information	101033	Orleans.Runtime.Dispatcher]	Forwarding 1 requests destined for address S127.0.0.1:11111:299508419*grn/7483D9D2/00000000@5758c99c to address S127.0.0.1:11111:299508419*grn/7483D9D2/00000000@c08602be after Duplicate activation.	
+[2019-06-29 12:47:05.962 GMT 12	Information	101031	Orleans.Runtime.Dispatcher]	Trying to forward after Duplicate activation, ForwardCount = 0. OldAddress = S127.0.0.1:11111:299508419*grn/7483D9D2/00000000@5758c99c, ForwardingAddress = S127.0.0.1:11111:299508419*grn/7483D9D2/00000000@c08602be, Message NewPlacement Request S127.0.0.1:11111:299508419*grn/FFE8F7B3/00000000@9b47908d->S127.0.0.1:11111:299508419*grn/7483D9D2/00000000@5758c99c #16: , Exception: (null).	
+[2019-06-29 12:47:05.984 GMT 12	Information	100520	Orleans.Runtime.Catalog]	Tried to create a duplicate activation S127.0.0.1:11111:299508419*grn/7483D9D2/00000000@54833993, but we'll use S127.0.0.1:11111:299508419*grn/7483D9D2/00000000@c08602be instead. GrainInstanceType is Orleans.Runtime.Management.ManagementGrain. Primary Directory partition for this grain is S127.0.0.1:11111:299508419. Full activation address is [ActivationAddress: S127.0.0.1:11111:299508419*grn/7483D9D2/00000000@54833993, Full GrainId: [GrainId: *grn/7483D9D2/00000000000000000000000000000000030000007483d9d2-0x26B452AD, IdCategory: Grain, BaseTypeCode: 1954798034 (x7483D9D2), PrimaryKey: 0 (x0), UniformHashCode: 649351853 (0x26B452AD)], Full ActivationId: @461d9dd1f47a601c14e6061c548339930000000000000000]. We have 1 messages to forward.	
+[2019-06-29 12:47:05.991 GMT 12	Information	101033	Orleans.Runtime.Dispatcher]	Forwarding 1 requests destined for address S127.0.0.1:11111:299508419*grn/7483D9D2/00000000@54833993 to address S127.0.0.1:11111:299508419*grn/7483D9D2/00000000@c08602be after Duplicate activation.	
+[2019-06-29 12:47:06.014 GMT 12	Information	101031	Orleans.Runtime.Dispatcher]	Trying to forward after Duplicate activation, ForwardCount = 0. OldAddress = S127.0.0.1:11111:299508419*grn/7483D9D2/00000000@54833993, ForwardingAddress = S127.0.0.1:11111:299508419*grn/7483D9D2/00000000@c08602be, Message NewPlacement Request S127.0.0.1:11111:299508419*grn/FFE8F7B3/00000000@9b47908d->S127.0.0.1:11111:299508419*grn/7483D9D2/00000000@54833993 #17: , Exception: (null).	
+[2019-06-29 12:47:06.125 GMT 11	Information	0	OrleansDashboard.Dashboard]	Dashboard listening on 8080	
+[2019-06-29 12:47:06.149 GMT 11	Information	100452	Orleans.Runtime.SiloLifecycleSubject]	Lifecycle observer Orleans.Hosting.SiloBuilderStartupExtensions+StartupTask started in stage 20000 which took 2174 Milliseconds.	
+[2019-06-29 12:47:06.175 GMT 11	Warning	101215	Orleans.Runtime.Scheduler *stg/20/00000014.WorkItemGroup]	Task [Id=317, Status=RanToCompletion] in WorkGroup [SystemTarget: S127.0.0.1:11111:299508419*stg/20/00000014@S00000014] took elapsed time 0:00:02.2513409 for execution, which is longer than 00:00:00.2000000. Running on thread System.Threading.Thread	
+[2019-06-29 12:47:06.189 GMT 11	Information	100452	Orleans.Runtime.SiloLifecycleSubject]	Lifecycle observer Orleans.Runtime.Silo started in stage 20000 which took 35 Milliseconds.	
+[2019-06-29 12:47:06.195 GMT 11	Information	100452	Orleans.Runtime.SiloLifecycleSubject]	Starting lifecycle stage 20000 took 2221.5546 Milliseconds	
+[2019-06-29 12:47:06.222 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:47:06.261 GMT 16	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:47:07.354 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:47:07.359 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:47:08.388 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:47:08.392 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:47:09.416 GMT 12	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:47:09.421 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:47:10.445 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:47:10.449 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:47:11.483 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:47:11.496 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:47:12.542 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:47:12.546 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:47:13.574 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:47:13.577 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:47:14.651 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:47:14.682 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:47:15.761 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:47:15.765 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:47:16.795 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:47:16.808 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:47:17.895 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:47:17.903 GMT 17	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:47:18.642 GMT 36	Information	101301	Orleans.Runtime.Messaging.Gateway]	Recorded opened socket from endpoint 127.0.0.1:9273, client ID *cli/4e769184.	
+[2019-06-29 12:47:18.827 GMT 12	Information	0	Runtime.Messaging.GatewaySender/GatewaySiloSender_0]	Starting AsyncAgent Runtime.Messaging.GatewaySender/GatewaySiloSender_0 on managed thread 12	
+[2019-06-29 12:47:18.850 GMT 39	Information	0	Orleans.Threading.ThreadPoolThread]	Starting thread Runtime.Messaging.GatewaySender/GatewaySiloSender_00 on managed thread 39	
+[2019-06-29 12:47:18.928 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:47:19.049 GMT 15	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:47:19.597 GMT 15	Information	0	SiloHost.Filters.LoggingFilter]	LOGGING_FILTER TraceId: 00000000-0000-0000-0000-000000000000 Grains.GreetingsGrain.SendGreeting: arguments: ["Hello"] request	
+[2019-06-29 12:47:20.189 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:47:20.193 GMT 13	Information	0	Orleans.Runtime.Management.ManagementGrain]	GetDetailedHosts onlyActive=True	
+[2019-06-29 12:47:21.806 GMT 11	Information	0	Orleans.Runtime.SiloControl]	GetSimpleGrainStatistics	
+[2019-06-29 12:47:28.593 GMT 30	Warning	100150	Orleans.Runtime.Watchdog]	.NET Runtime Platform stalled for 00:00:07.2720673 - possibly GC? We are now using total of 9MB memory. gc=10, 4, 2	

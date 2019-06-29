@@ -12,5 +12,3 @@ C:\Users\Duho\source\repos\Orleans\Grains\obj\Debug\netstandard2.0\Grains.Assemb
 C:\Users\Duho\source\repos\Orleans\Grains\obj\Debug\netstandard2.0\Grains.csproj.CopyComplete
 C:\Users\Duho\source\repos\Orleans\Grains\obj\Debug\netstandard2.0\Grains.dll
 C:\Users\Duho\source\repos\Orleans\Grains\obj\Debug\netstandard2.0\Grains.pdb
-C:\Users\Duho\source\repos\Orleans\Grains\bin\Debug\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\Duho\source\repos\Orleans\Grains\bin\Debug\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.xml

@@ -47,15 +47,23 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "EventStore.Client": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
             "Microsoft.Orleans.CodeGenerator.MSBuild": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.3.4, )"
+              "version": "[2.3.5, )"
             },
             "Microsoft.Orleans.Core.Abstractions": {
               "target": "Package",
-              "version": "[2.3.4, )"
+              "version": "[2.3.5, )"
+            },
+            "Microsoft.Orleans.EventSourcing": {
+              "target": "Package",
+              "version": "[2.3.5, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",

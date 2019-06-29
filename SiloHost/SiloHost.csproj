@@ -16,9 +16,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="EventStore.Client" Version="5.0.1" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.2.0" />
     <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="2.2.0" />
     <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Orleans.EventSourcing" Version="2.3.5" />
     <PackageReference Include="Microsoft.Orleans.Persistence.AdoNet" Version="2.3.4" />
     <PackageReference Include="Microsoft.Orleans.Server" Version="2.3.4" />
     <PackageReference Include="MySql.Data" Version="8.0.16" />

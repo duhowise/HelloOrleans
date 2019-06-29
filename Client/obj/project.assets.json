@@ -409,7 +409,7 @@
           "Microsoft.Orleans.OrleansProviders": "2.3.4"
         }
       },
-      "Microsoft.Orleans.Core/2.3.4": {
+      "Microsoft.Orleans.Core/2.3.5": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "2.1.1",
@@ -418,7 +418,7 @@
           "Microsoft.Extensions.Hosting.Abstractions": "2.1.0",
           "Microsoft.Extensions.Logging": "2.0.0",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "2.1.1",
-          "Microsoft.Orleans.Core.Abstractions": "2.3.4",
+          "Microsoft.Orleans.Core.Abstractions": "2.3.5",
           "Newtonsoft.Json": "10.0.3",
           "System.Collections.Immutable": "1.4.0",
           "System.ComponentModel.TypeConverter": "4.3.0",
@@ -449,7 +449,7 @@
           "lib/netstandard2.0/Orleans.Core.dll": {}
         }
       },
-      "Microsoft.Orleans.Core.Abstractions/2.3.4": {
+      "Microsoft.Orleans.Core.Abstractions/2.3.5": {
         "type": "package",
         "dependencies": {
           "System.Memory": "4.5.1",
@@ -460,6 +460,21 @@
         },
         "runtime": {
           "lib/netstandard2.0/Orleans.Core.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Orleans.EventSourcing/2.3.5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.3.0",
+          "Microsoft.Orleans.Core": "2.3.5",
+          "Microsoft.Orleans.Runtime.Abstractions": "2.3.5",
+          "System.Dynamic.Runtime": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Orleans.EventSourcing.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Orleans.EventSourcing.dll": {}
         }
       },
       "Microsoft.Orleans.OrleansProviders/2.3.4": {
@@ -475,12 +490,12 @@
           "lib/netstandard2.0/OrleansProviders.dll": {}
         }
       },
-      "Microsoft.Orleans.Runtime.Abstractions/2.3.4": {
+      "Microsoft.Orleans.Runtime.Abstractions/2.3.5": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Hosting.Abstractions": "2.1.0",
           "Microsoft.Extensions.Options": "2.1.1",
-          "Microsoft.Orleans.Core": "2.3.4"
+          "Microsoft.Orleans.Core": "2.3.5"
         },
         "compile": {
           "lib/netstandard2.0/Orleans.Runtime.Abstractions.dll": {}
@@ -1848,7 +1863,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Interfaces": "1.0.0",
-          "Microsoft.Orleans.Core.Abstractions": "2.3.4"
+          "Microsoft.Orleans.Core.Abstractions": "2.3.5",
+          "Microsoft.Orleans.EventSourcing": "2.3.5"
         },
         "compile": {
           "bin/placeholder/Grains.dll": {}
@@ -2473,32 +2489,46 @@
         "microsoft.orleans.client.nuspec"
       ]
     },
-    "Microsoft.Orleans.Core/2.3.4": {
-      "sha512": "iynrMH5y0UIFAnRLTKjC9kbyFZA+GQXzuhk3DOqoOLEXxV4mhRp7en/Cb4T2FgHDdxclwtKJhFDEjOUV8malKQ==",
+    "Microsoft.Orleans.Core/2.3.5": {
+      "sha512": "AkempfL2Y+MSJ4Ih7H67Eh4C2EAZ/JByOKHDlQdspDCHRQZLXhaIpPr/LczSOUm3wk5Q7A7PksU+GRi4jdq0hQ==",
       "type": "package",
-      "path": "microsoft.orleans.core/2.3.4",
+      "path": "microsoft.orleans.core/2.3.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Orleans.Core.dll",
         "lib/netstandard2.0/Orleans.Core.pdb",
         "lib/netstandard2.0/Orleans.Core.xml",
-        "microsoft.orleans.core.2.3.4.nupkg.sha512",
+        "microsoft.orleans.core.2.3.5.nupkg.sha512",
         "microsoft.orleans.core.nuspec"
       ]
     },
-    "Microsoft.Orleans.Core.Abstractions/2.3.4": {
-      "sha512": "BiihcBlelYp8EI4ER+UEo2tyxcRALr4dx/hET4RShiLbr4mr1DOkSVGRSv7FyA4H7Uc2IyYNx+r161cv8Ph6sw==",
+    "Microsoft.Orleans.Core.Abstractions/2.3.5": {
+      "sha512": "uqoqIUs3wIF9DmIOw3jVMUxfHktjQMzEvSY7Glji+z/drnSW0J1xOthgXjsqEFMVsV0TqbzIOnAIvYgCEiLbaA==",
       "type": "package",
-      "path": "microsoft.orleans.core.abstractions/2.3.4",
+      "path": "microsoft.orleans.core.abstractions/2.3.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Orleans.Core.Abstractions.dll",
         "lib/netstandard2.0/Orleans.Core.Abstractions.pdb",
         "lib/netstandard2.0/Orleans.Core.Abstractions.xml",
-        "microsoft.orleans.core.abstractions.2.3.4.nupkg.sha512",
+        "microsoft.orleans.core.abstractions.2.3.5.nupkg.sha512",
         "microsoft.orleans.core.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Orleans.EventSourcing/2.3.5": {
+      "sha512": "mapDeuBpcXtKFgkBlp8+SatEQIpMlmjGGxh6BTlzDbV41PvHGk6vea5MFX/HHwxBthJArDGP2/4yicT/LRSnog==",
+      "type": "package",
+      "path": "microsoft.orleans.eventsourcing/2.3.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Orleans.EventSourcing.dll",
+        "lib/netstandard2.0/Orleans.EventSourcing.pdb",
+        "lib/netstandard2.0/Orleans.EventSourcing.xml",
+        "microsoft.orleans.eventsourcing.2.3.5.nupkg.sha512",
+        "microsoft.orleans.eventsourcing.nuspec"
       ]
     },
     "Microsoft.Orleans.OrleansProviders/2.3.4": {
@@ -2515,17 +2545,17 @@
         "microsoft.orleans.orleansproviders.nuspec"
       ]
     },
-    "Microsoft.Orleans.Runtime.Abstractions/2.3.4": {
-      "sha512": "7intXOPfKxUFu11zdlWCswoLeYly6fQNa9vLdXL9ldjngaHNQ5ysNZ0XQSe8wp0PuUav+W/egsRre6BElU7r1A==",
+    "Microsoft.Orleans.Runtime.Abstractions/2.3.5": {
+      "sha512": "YQ33kKBCkj0LxPeLLMy6C75+TrcwUAA4OMS3AnEt8IDTJM/wMuWC3PJ/pNTAZRgnGlBiUKO/fy97TMyTTFL+GQ==",
       "type": "package",
-      "path": "microsoft.orleans.runtime.abstractions/2.3.4",
+      "path": "microsoft.orleans.runtime.abstractions/2.3.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Orleans.Runtime.Abstractions.dll",
         "lib/netstandard2.0/Orleans.Runtime.Abstractions.pdb",
         "lib/netstandard2.0/Orleans.Runtime.Abstractions.xml",
-        "microsoft.orleans.runtime.abstractions.2.3.4.nupkg.sha512",
+        "microsoft.orleans.runtime.abstractions.2.3.5.nupkg.sha512",
         "microsoft.orleans.runtime.abstractions.nuspec"
       ]
     },
