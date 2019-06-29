@@ -7,11 +7,13 @@ using Grains;
 using Interfaces;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using Orleans;
 using Orleans.Configuration;
 using Orleans.Hosting;
 using Orleans.Logging;
+using SiloHost.Context;
 using SiloHost.Filters;
 
 namespace SiloHost
@@ -60,6 +62,7 @@ namespace SiloHost
                     }).UseDashboard()
                     .ConfigureServices(services =>
                     {
+                        services.AddSingleton<IOrleansRequestContext,OrleansRequestContext>();
                         services.AddSingleton(s => CreateGrainMethodList());
                         services.AddSingleton(s => new JsonSerializerSettings
                         {
@@ -79,7 +82,12 @@ namespace SiloHost
                     })
                     .ConfigureApplicationParts(parts =>
                         parts.AddApplicationPart(typeof(HelloGrain).Assembly).WithReferences())
-                    .ConfigureLogging(logging => logging.AddFile("OrleansLog.txt"))
+                    .ConfigureLogging(logging =>
+                    {
+                        logging.AddFile("OrleansLog.txt");
+                        logging.AddDebug();
+                        logging.AddConsole();
+                    })
                 ;
 
 

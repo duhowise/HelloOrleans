@@ -12,7 +12,8 @@
           "Interfaces": "1.0.0",
           "Microsoft.Orleans.CodeGenerator.MSBuild": "2.3.4",
           "Microsoft.Orleans.Core.Abstractions": "2.3.4",
-          "NETStandard.Library": "2.0.3"
+          "NETStandard.Library": "2.0.3",
+          "Microsoft.Extensions.Logging.Abstractions": "2.1.1.0"
         },
         "runtime": {
           "Grains.dll": {}
@@ -177,6 +178,14 @@
         "runtime": {
           "Interfaces.dll": {}
         }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/2.1.1.0": {
+        "runtime": {
+          "Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "2.1.1.0",
+            "fileVersion": "2.1.1.18157"
+          }
+        }
       }
     }
   },
@@ -328,6 +337,11 @@
     },
     "Interfaces/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.Logging.Abstractions/2.1.1.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

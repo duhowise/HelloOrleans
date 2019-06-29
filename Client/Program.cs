@@ -22,10 +22,11 @@ namespace Client
             {
                 using (var client = StartClient())
                 {
+                    RequestContext.Set("traceId",Guid.NewGuid());
                     Console.WriteLine($"client is Initialised: {client.IsInitialized}");
                     var key = Guid.NewGuid();
            
-                    var helloGrain = client.GetGrain<IHello>(key);
+                    var helloGrain = client.GetGrain<IHello>(Guid.NewGuid());
                     var helloGrain2 = client.GetGrain<IHello>(key);
                     var helloGrain3 = client.GetGrain<IHello>(key);
                     var response = await helloGrain.SayHello("Good Morning");
@@ -34,6 +35,9 @@ namespace Client
                     Console.WriteLine(response);
                     Console.WriteLine(response2);
                     Console.WriteLine(response3);
+
+
+                    
                     Console.ReadLine();
                 }
 
