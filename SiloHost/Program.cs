@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
+using System.Threading;
 using System.Threading.Tasks;
 using EventStore.ClientAPI;
 using Grains;
@@ -21,8 +22,15 @@ namespace SiloHost
 {
     internal class Program
     {
+        private static readonly ManualResetEvent SiloStopped = new ManualResetEvent(false);
+        private static bool _siloStopping=false;
+        private static readonly object SynLock = new object();
+        private static ISiloHost _silo;
+
         private static async Task<int> Main(string[] args)
         {
+            SetupApplicationShutdown();
+
             return await RunSilo();
         }
 
@@ -30,9 +38,10 @@ namespace SiloHost
         {
             try
             {
-                await StartSilo();
+                _silo = await StartSilo();
                 Console.WriteLine("silo started");
                 Console.WriteLine("press enter to terminate");
+                SiloStopped.WaitOne();
                 Console.ReadLine();
                 return 0;
             }
@@ -60,10 +69,11 @@ namespace SiloHost
                         option.SiloPort = 11111;
                         option.GatewayPort = 30000;
                         option.AdvertisedIPAddress = IPAddress.Loopback;
-                    }).UseDashboard()
+                    })
+                    .UseDashboard()
                     .ConfigureServices(services =>
                     {
-                        services.AddSingleton<IOrleansRequestContext,OrleansRequestContext>();
+                        services.AddSingleton<IOrleansRequestContext, OrleansRequestContext>();
                         services.AddSingleton(s => CreateGrainMethodList());
                         services.AddSingleton(s => new JsonSerializerSettings
                         {
@@ -74,7 +84,6 @@ namespace SiloHost
                         });
 
                         services.AddSingleton(x => CreateEventStoreConnection());
-
                     }).AddCustomStorageBasedLogConsistencyProvider("CustomStorage")
                     .AddIncomingGrainCallFilter<LoggingFilter>()
                     .AddAdoNetGrainStorageAsDefault(options =>
@@ -82,7 +91,6 @@ namespace SiloHost
                         options.Invariant = orleansConfig.Invariant;
                         options.ConnectionString = orleansConfig.ConnectionString;
                         options.UseJsonFormat = orleansConfig.UseJsonFormat;
-
                     })
                     .ConfigureApplicationParts(parts =>
                         parts.AddApplicationPart(typeof(HelloGrain).Assembly).WithReferences())
@@ -95,9 +103,9 @@ namespace SiloHost
                 ;
 
 
-            var host = builder.Build();
-            await host.StartAsync();
-            return host;
+            _silo = builder.Build();
+            await _silo.StartAsync();
+            return _silo;
         }
 
         private static IEventStoreConnection CreateEventStoreConnection()
@@ -107,8 +115,30 @@ namespace SiloHost
             var connection = EventStoreConnection.Create(connectionString);
             connection.ConnectAsync().GetAwaiter().GetResult();
             return connection;
-
         }
+
+        static void SetupApplicationShutdown()
+        {
+            Console.CancelKeyPress += (s, a) =>
+            {
+                a.Cancel = true;
+                lock (SynLock)
+                {
+                    if (!_siloStopping)
+                    {
+                        _siloStopping = true;
+                        Task.Run(StopSilo).Ignore();
+                    }
+                }
+            };
+        }
+
+        static async Task StopSilo()
+        {
+            await _silo.StopAsync();
+            SiloStopped.Set();
+        }
+
         private static IConfigurationRoot LoadConfig()
         {
             var builder = new ConfigurationBuilder();
