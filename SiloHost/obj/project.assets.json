@@ -2793,6 +2793,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "EventStore.Client": "5.0.1",
           "Interfaces": "1.0.0",
           "Microsoft.Orleans.Core.Abstractions": "2.3.5",
           "Microsoft.Orleans.EventSourcing": "2.3.5"

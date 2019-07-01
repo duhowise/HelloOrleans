@@ -1,12 +1,15 @@
 ﻿using System.Threading.Tasks;
+using EventStore.ClientAPI;
 using Interfaces;
+using Newtonsoft.Json;
+using Orleans;
 using Orleans.EventSourcing;
 using Orleans.EventSourcing.StateStorage;
 using Orleans.Providers;
 
 namespace Grains
 {
-   [LogConsistencyProvider(ProviderName = "StateStorage")] public class GreetingsGrain:JournaledGrain<GreetingState,GreetingEvent>,IGreetingGrain
+   [LogConsistencyProvider(ProviderName = "CustomStorage")] public class GreetingsGrain:EventSourcedGrain<GreetingState,GreetingEvent>,IGreetingGrain
 
     {
         public async Task<string> SendGreeting(string greetings)
@@ -15,6 +18,15 @@ namespace Grains
             RaiseEvent(new GreetingEvent{Greeting = greetings});
             await ConfirmEvents();
             return greetings;
+        }
+
+        public GreetingsGrain(IEventStoreConnection eventStoreConnection, JsonSerializerSettings jsonSerializerSettings) : base(eventStoreConnection, jsonSerializerSettings)
+        {
+        }
+
+        protected override string GetGrainKey()
+        {
+            return this.GetPrimaryKeyLong().ToString();
         }
     }
 

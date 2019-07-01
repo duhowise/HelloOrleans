@@ -6,8 +6,10 @@ OutputType:Library
 TargetPath:C:\Users\Duho\source\repos\Orleans\Grains\bin\Debug\netstandard2.0\Grains.dll
 CodeGenOutputFile:C:\Users\Duho\source\repos\Orleans\Grains\obj\Debug\netstandard2.0\Grains.orleans.g.cs
 Compile:C:\Users\Duho\source\repos\Orleans\Grains\Class1.cs
+Compile:C:\Users\Duho\source\repos\Orleans\Grains\EventSourcedGrain.cs
 Compile:C:\Users\Duho\source\repos\Orleans\Grains\GreetingsGrain.cs
 Compile:C:\Users\Duho\source\repos\Orleans\Grains\HelloGrain.cs
+Reference:C:\Users\Duho\.nuget\packages\eventstore.client\5.0.1\lib\netstandard2.0\EventStore.ClientAPI.dll
 Reference:C:\Users\Duho\source\repos\Orleans\Interfaces\bin\Debug\netstandard2.0\Interfaces.dll
 Reference:C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.csharp\4.3.0\ref\netstandard1.0\Microsoft.CSharp.dll
 Reference:C:\Users\Duho\.nuget\packages\microsoft.dotnet.platformabstractions\2.0.0\lib\netstandard1.3\Microsoft.DotNet.PlatformAbstractions.dll
@@ -27,11 +29,12 @@ Reference:C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.p
 Reference:C:\Users\Duho\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\Microsoft.Win32.Primitives.dll
 Reference:C:\Users\Duho\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\mscorlib.dll
 Reference:C:\Users\Duho\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\netstandard.dll
-Reference:C:\Users\Duho\.nuget\packages\newtonsoft.json\10.0.3\lib\netstandard1.3\Newtonsoft.Json.dll
+Reference:C:\Program Files\dotnet\sdk\NuGetFallbackFolder\newtonsoft.json\11.0.2\lib\netstandard2.0\Newtonsoft.Json.dll
 Reference:C:\Users\Duho\.nuget\packages\microsoft.orleans.core.abstractions\2.3.5\lib\netstandard2.0\Orleans.Core.Abstractions.dll
 Reference:C:\Users\Duho\.nuget\packages\microsoft.orleans.core\2.3.5\lib\netstandard2.0\Orleans.Core.dll
 Reference:C:\Users\Duho\.nuget\packages\microsoft.orleans.eventsourcing\2.3.5\lib\netstandard2.0\Orleans.EventSourcing.dll
 Reference:C:\Users\Duho\.nuget\packages\microsoft.orleans.runtime.abstractions\2.3.5\lib\netstandard2.0\Orleans.Runtime.Abstractions.dll
+Reference:C:\Users\Duho\.nuget\packages\protobuf-net\2.4.0\lib\netstandard2.0\protobuf-net.dll
 Reference:C:\Users\Duho\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.AppContext.dll
 Reference:C:\Users\Duho\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Collections.Concurrent.dll
 Reference:C:\Users\Duho\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Collections.dll
@@ -126,6 +129,8 @@ Reference:C:\Users\Duho\.nuget\packages\netstandard.library\2.0.3\build\netstand
 Reference:C:\Users\Duho\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Security.Cryptography.X509Certificates.dll
 Reference:C:\Users\Duho\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Security.Principal.dll
 Reference:C:\Users\Duho\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Security.SecureString.dll
+Reference:C:\Users\Duho\.nuget\packages\system.servicemodel.primitives\4.5.3\ref\netstandard2.0\System.ServiceModel.dll
+Reference:C:\Users\Duho\.nuget\packages\system.servicemodel.primitives\4.5.3\ref\netstandard2.0\System.ServiceModel.Primitives.dll
 Reference:C:\Users\Duho\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.ServiceModel.Web.dll
 Reference:C:\Users\Duho\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Text.Encoding.dll
 Reference:C:\Users\Duho\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Text.Encoding.Extensions.dll

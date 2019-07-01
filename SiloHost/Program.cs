@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
+using EventStore.ClientAPI;
 using Grains;
 using Interfaces;
 using Microsoft.Extensions.Configuration;
@@ -72,13 +73,16 @@ namespace SiloHost
                             PreserveReferencesHandling = PreserveReferencesHandling.Objects
                         });
 
-                    }).AddStateStorageBasedLogConsistencyProvider("StateStorage")
+                        services.AddSingleton(x => CreateEventStoreConnection());
+
+                    }).AddCustomStorageBasedLogConsistencyProvider("CustomStorage")
                     .AddIncomingGrainCallFilter<LoggingFilter>()
                     .AddAdoNetGrainStorageAsDefault(options =>
                     {
                         options.Invariant = orleansConfig.Invariant;
                         options.ConnectionString = orleansConfig.ConnectionString;
                         options.UseJsonFormat = orleansConfig.UseJsonFormat;
+
                     })
                     .ConfigureApplicationParts(parts =>
                         parts.AddApplicationPart(typeof(HelloGrain).Assembly).WithReferences())
@@ -96,6 +100,15 @@ namespace SiloHost
             return host;
         }
 
+        private static IEventStoreConnection CreateEventStoreConnection()
+        {
+            var connectionString = "ConnectTo=tcp://admin:changeit@localhost:1113; HeartBeatTimeout=500";
+
+            var connection = EventStoreConnection.Create(connectionString);
+            connection.ConnectAsync().GetAwaiter().GetResult();
+            return connection;
+
+        }
         private static IConfigurationRoot LoadConfig()
         {
             var builder = new ConfigurationBuilder();
