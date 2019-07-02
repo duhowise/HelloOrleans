@@ -1,0 +1,17 @@
+C:\Users\Duho\source\repos\Orleans\SiloHost2\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\Duho\source\repos\Orleans\SiloHost2\bin\Debug\netcoreapp2.2\SiloHost2.deps.json
+C:\Users\Duho\source\repos\Orleans\SiloHost2\bin\Debug\netcoreapp2.2\SiloHost2.runtimeconfig.json
+C:\Users\Duho\source\repos\Orleans\SiloHost2\bin\Debug\netcoreapp2.2\SiloHost2.runtimeconfig.dev.json
+C:\Users\Duho\source\repos\Orleans\SiloHost2\bin\Debug\netcoreapp2.2\SiloHost2.dll
+C:\Users\Duho\source\repos\Orleans\SiloHost2\bin\Debug\netcoreapp2.2\SiloHost2.pdb
+C:\Users\Duho\source\repos\Orleans\SiloHost2\bin\Debug\netcoreapp2.2\Grains.dll
+C:\Users\Duho\source\repos\Orleans\SiloHost2\bin\Debug\netcoreapp2.2\Interfaces.dll
+C:\Users\Duho\source\repos\Orleans\SiloHost2\bin\Debug\netcoreapp2.2\Grains.pdb
+C:\Users\Duho\source\repos\Orleans\SiloHost2\bin\Debug\netcoreapp2.2\Interfaces.pdb
+C:\Users\Duho\source\repos\Orleans\SiloHost2\obj\Debug\netcoreapp2.2\SiloHost2.csprojAssemblyReference.cache
+C:\Users\Duho\source\repos\Orleans\SiloHost2\obj\Debug\netcoreapp2.2\SiloHost2.csproj.CoreCompileInputs.cache
+C:\Users\Duho\source\repos\Orleans\SiloHost2\obj\Debug\netcoreapp2.2\SiloHost2.AssemblyInfoInputs.cache
+C:\Users\Duho\source\repos\Orleans\SiloHost2\obj\Debug\netcoreapp2.2\SiloHost2.AssemblyInfo.cs
+C:\Users\Duho\source\repos\Orleans\SiloHost2\obj\Debug\netcoreapp2.2\SiloHost2.csproj.CopyComplete
+C:\Users\Duho\source\repos\Orleans\SiloHost2\obj\Debug\netcoreapp2.2\SiloHost2.dll
+C:\Users\Duho\source\repos\Orleans\SiloHost2\obj\Debug\netcoreapp2.2\SiloHost2.pdb

@@ -419,10 +419,10 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.Orleans.Client/2.3.4": {
+      "Microsoft.Orleans.Client/2.3.5": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Orleans.OrleansProviders": "2.3.4"
+          "Microsoft.Orleans.OrleansProviders": "2.3.5"
         }
       },
       "Microsoft.Orleans.Core/2.3.5": {
@@ -493,11 +493,11 @@
           "lib/netstandard2.0/Orleans.EventSourcing.dll": {}
         }
       },
-      "Microsoft.Orleans.OrleansProviders/2.3.4": {
+      "Microsoft.Orleans.OrleansProviders/2.3.5": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Orleans.Core": "2.3.4",
-          "Microsoft.Orleans.Runtime.Abstractions": "2.3.4"
+          "Microsoft.Orleans.Core": "2.3.5",
+          "Microsoft.Orleans.Runtime.Abstractions": "2.3.5"
         },
         "compile": {
           "lib/netstandard2.0/OrleansProviders.dll": {}
@@ -2255,7 +2255,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Microsoft.Orleans.Core.Abstractions": "2.3.4"
+          "Microsoft.Orleans.Core.Abstractions": "2.3.5"
         },
         "compile": {
           "bin/placeholder/Interfaces.dll": {}
@@ -2873,14 +2873,14 @@
         "version.txt"
       ]
     },
-    "Microsoft.Orleans.Client/2.3.4": {
-      "sha512": "kjYOEGNRiGQlsdoF0V56KgljVU2+NQBaWLQ1+wjhvaFaNVtJfsryPgkTbQmhD8O0ZQL5w7CKZAxsYIl45cDlUg==",
+    "Microsoft.Orleans.Client/2.3.5": {
+      "sha512": "DnVzUF6wnTo4WrO0/Ga7b950PMdx+7hlqkzsK6Ka9NoSUAknQZ3aslnu3B5S2duVbaYCVBigMo2AtWd2S/GQuQ==",
       "type": "package",
-      "path": "microsoft.orleans.client/2.3.4",
+      "path": "microsoft.orleans.client/2.3.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "microsoft.orleans.client.2.3.4.nupkg.sha512",
+        "microsoft.orleans.client.2.3.5.nupkg.sha512",
         "microsoft.orleans.client.nuspec"
       ]
     },
@@ -2926,17 +2926,17 @@
         "microsoft.orleans.eventsourcing.nuspec"
       ]
     },
-    "Microsoft.Orleans.OrleansProviders/2.3.4": {
-      "sha512": "pLLbF7Cd9qtmOZsjF+pCnZkvu21A7Tx4bXb+rmCFmwRH1fRdYuUnJRfrbF/XF1VgjoVE02rY1UAX/99RVwNTQw==",
+    "Microsoft.Orleans.OrleansProviders/2.3.5": {
+      "sha512": "nAEHx79kfhaeHtHTTOAWEeBuB6bZL/eLt/tNRjecUcVZR2HZGNydR27fospee3lj8c9bWAVnsEnjwlm5GRMsHQ==",
       "type": "package",
-      "path": "microsoft.orleans.orleansproviders/2.3.4",
+      "path": "microsoft.orleans.orleansproviders/2.3.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/OrleansProviders.dll",
         "lib/netstandard2.0/OrleansProviders.pdb",
         "lib/netstandard2.0/OrleansProviders.xml",
-        "microsoft.orleans.orleansproviders.2.3.4.nupkg.sha512",
+        "microsoft.orleans.orleansproviders.2.3.5.nupkg.sha512",
         "microsoft.orleans.orleansproviders.nuspec"
       ]
     },
@@ -7430,7 +7430,7 @@
       "Grains >= 1.0.0",
       "Interfaces >= 1.0.0",
       "Microsoft.NETCore.App >= 2.2.0",
-      "Microsoft.Orleans.Client >= 2.3.4",
+      "Microsoft.Orleans.Client >= 2.3.5",
       "Polly >= 7.1.0"
     ]
   },
@@ -7493,7 +7493,7 @@
           },
           "Microsoft.Orleans.Client": {
             "target": "Package",
-            "version": "[2.3.4, )"
+            "version": "[2.3.5, )"
           },
           "Polly": {
             "target": "Package",

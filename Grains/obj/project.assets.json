@@ -2103,7 +2103,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Microsoft.Orleans.Core.Abstractions": "2.3.4"
+          "Microsoft.Orleans.Core.Abstractions": "2.3.5"
         },
         "compile": {
           "bin/placeholder/Interfaces.dll": {}

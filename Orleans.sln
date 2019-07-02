@@ -11,7 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfaces", "Interfaces\In
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client", "Client\Client.csproj", "{7ADAAD4B-E357-4F42-984E-58ACF4914688}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbMigration", "DbMigration\DbMigration.csproj", "{67EDF150-864D-4AF7-B13F-4477782B67AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbMigration", "DbMigration\DbMigration.csproj", "{67EDF150-864D-4AF7-B13F-4477782B67AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SiloHost1", "SiloHost1\SiloHost1.csproj", "{410E700F-8099-4C73-AA08-69E2647E188A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SiloHost2", "SiloHost2\SiloHost2.csproj", "{9BDCFD17-9DED-4134-B5E8-E1E4DDCFB15C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{67EDF150-864D-4AF7-B13F-4477782B67AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67EDF150-864D-4AF7-B13F-4477782B67AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67EDF150-864D-4AF7-B13F-4477782B67AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{410E700F-8099-4C73-AA08-69E2647E188A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{410E700F-8099-4C73-AA08-69E2647E188A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{410E700F-8099-4C73-AA08-69E2647E188A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{410E700F-8099-4C73-AA08-69E2647E188A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BDCFD17-9DED-4134-B5E8-E1E4DDCFB15C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BDCFD17-9DED-4134-B5E8-E1E4DDCFB15C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BDCFD17-9DED-4134-B5E8-E1E4DDCFB15C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BDCFD17-9DED-4134-B5E8-E1E4DDCFB15C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

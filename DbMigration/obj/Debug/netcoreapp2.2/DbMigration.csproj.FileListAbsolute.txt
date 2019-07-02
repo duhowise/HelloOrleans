@@ -10,4 +10,4 @@ C:\Users\Duho\source\repos\Orleans\DbMigration\obj\Debug\netcoreapp2.2\DbMigrati
 C:\Users\Duho\source\repos\Orleans\DbMigration\obj\Debug\netcoreapp2.2\DbMigration.AssemblyInfo.cs
 C:\Users\Duho\source\repos\Orleans\DbMigration\obj\Debug\netcoreapp2.2\DbMigration.dll
 C:\Users\Duho\source\repos\Orleans\DbMigration\obj\Debug\netcoreapp2.2\DbMigration.pdb
-C:\Users\Duho\source\repos\Orleans\DbMigration\obj\Debug\netcoreapp2.2\DbMigration.csprojAssemblyReference.cache
+C:\Users\Duho\source\repos\Orleans\DbMigration\bin\Debug\netcoreapp2.2\Scripts\003MySQL-Clustering.sql

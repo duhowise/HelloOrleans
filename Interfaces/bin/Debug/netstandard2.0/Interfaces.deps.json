@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "50188aa8ab0ddeb7adce63348a4db66a86f3edf3"
+    "signature": "610c485861e035a86b4b2224723c54830e00c54e"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,8 +9,8 @@
     ".NETStandard,Version=v2.0/": {
       "Interfaces/1.0.0": {
         "dependencies": {
-          "Microsoft.Orleans.CodeGenerator.MSBuild": "2.3.4",
-          "Microsoft.Orleans.Core.Abstractions": "2.3.4",
+          "Microsoft.Orleans.CodeGenerator.MSBuild": "2.3.5",
+          "Microsoft.Orleans.Core.Abstractions": "2.3.5",
           "NETStandard.Library": "2.0.3"
         },
         "runtime": {
@@ -19,8 +19,8 @@
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
-      "Microsoft.Orleans.CodeGenerator.MSBuild/2.3.4": {},
-      "Microsoft.Orleans.Core.Abstractions/2.3.4": {
+      "Microsoft.Orleans.CodeGenerator.MSBuild/2.3.5": {},
+      "Microsoft.Orleans.Core.Abstractions/2.3.5": {
         "dependencies": {
           "System.Memory": "4.5.1",
           "System.Runtime.Serialization.Formatters": "4.3.0"
@@ -191,19 +191,19 @@
       "path": "microsoft.netcore.targets/1.1.0",
       "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
     },
-    "Microsoft.Orleans.CodeGenerator.MSBuild/2.3.4": {
+    "Microsoft.Orleans.CodeGenerator.MSBuild/2.3.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Y5FUp0DYgtAVqtJF8ZehL55KEbJZcWn8MlM8ZF6WTE3FnKKdDZq4LtJrwGs7TyOL+rA4fQttESfG6UCh+OogPw==",
-      "path": "microsoft.orleans.codegenerator.msbuild/2.3.4",
-      "hashPath": "microsoft.orleans.codegenerator.msbuild.2.3.4.nupkg.sha512"
+      "sha512": "sha512-+Gp8Z2H/YoyM6XhC6b+KH31kWxjRi3AV0jH4sF+m0yU4K9ScADHs87Zqa1/9WIAucEDaovaymIAXavM6DezYxg==",
+      "path": "microsoft.orleans.codegenerator.msbuild/2.3.5",
+      "hashPath": "microsoft.orleans.codegenerator.msbuild.2.3.5.nupkg.sha512"
     },
-    "Microsoft.Orleans.Core.Abstractions/2.3.4": {
+    "Microsoft.Orleans.Core.Abstractions/2.3.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-BiihcBlelYp8EI4ER+UEo2tyxcRALr4dx/hET4RShiLbr4mr1DOkSVGRSv7FyA4H7Uc2IyYNx+r161cv8Ph6sw==",
-      "path": "microsoft.orleans.core.abstractions/2.3.4",
-      "hashPath": "microsoft.orleans.core.abstractions.2.3.4.nupkg.sha512"
+      "sha512": "sha512-uqoqIUs3wIF9DmIOw3jVMUxfHktjQMzEvSY7Glji+z/drnSW0J1xOthgXjsqEFMVsV0TqbzIOnAIvYgCEiLbaA==",
+      "path": "microsoft.orleans.core.abstractions/2.3.5",
+      "hashPath": "microsoft.orleans.core.abstractions.2.3.5.nupkg.sha512"
     },
     "NETStandard.Library/2.0.3": {
       "type": "package",
